@@ -1,3 +1,17 @@
+.modern-template {
+    background: #fff;
+    box-sizing: border-box;
+    font-size: 14px;
+    /* min-height: 1024px; */
+    /* padding-bottom: 200px; */
+    /* position: relative; */
+}
+.modern-template, .modern-template .wv-table__cell, .modern-template .wv-table__cell--amount, .modern-template .wv-text, .modern-template .wv-text--strong {
+    font-family: Helvetica,Arial,sans-serif;
+}
+
+
+
 @keyframes panel-slide-up {
 
     0%,
