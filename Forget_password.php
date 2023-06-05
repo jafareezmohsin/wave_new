@@ -1,86 +1,54 @@
-<?php
-   include("connection.php");
-session_start();
-
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    // username and password sent from form 
-
-    $myusername = mysqli_real_escape_string($db, $_POST['username']);
-    $mypassword = mysqli_real_escape_string($db, $_POST['password']);
-
-    $sql = "SELECT id FROM users WHERE email = '$myusername' and password = '$mypassword'";
-    $result = mysqli_query($db, $sql);
-    $row = mysqli_fetch_array($result, MYSQLI_ASSOC);
-
- 
-    if ($result) {
-      
-      header("location: dashboard.php");
-  } else {
-      $output .= 'Error' . $query;
-  } 
-
-}
-?>
-
-
-
-
-<html data-country="PK">
+<html data-country="PK" data-arp-injected="true">
 
 <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8">
 
-    <title>Wave • Sign in</title>
+
+
+
+
+
+
+
+
+
+    <title>Wave • Forgot Your Password?</title>
     <link rel="apple-touch-icon" sizes="180x180"
-        href="https://dmrokfxvkn5v8.cloudfront.net/public/wavicon/apple-touch-icon.png" />
+        href="https://dmrokfxvkn5v8.cloudfront.net/public/wavicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" href="https://dmrokfxvkn5v8.cloudfront.net/public/wavicon/favicon-32x32.png"
-        sizes="32x32" />
+        sizes="32x32">
     <link rel="icon" type="image/png" href="https://dmrokfxvkn5v8.cloudfront.net/public/wavicon/favicon-16x16.png"
-        sizes="16x16" />
-    <link rel="manifest" href="https://dmrokfxvkn5v8.cloudfront.net/public/wavicon/site.webmanifest" />
+        sizes="16x16">
+    <link rel="manifest" href="https://dmrokfxvkn5v8.cloudfront.net/public/wavicon/site.webmanifest">
     <link rel="mask-icon" href="https://dmrokfxvkn5v8.cloudfront.net/public/wavicon/safari-pinned-tab.svg"
-        color="#308df8" />
-    <meta name="theme-color" content="#ffffff" />
+        color="#308df8">
+    <meta name="theme-color" content="#ffffff">
     <meta name="msapplication-square150x150logo"
-        content="https://dmrokfxvkn5v8.cloudfront.net/public/wavicon/mstile-150x150.png" />
+        content="https://dmrokfxvkn5v8.cloudfront.net/public/wavicon/mstile-150x150.png">
     <meta name="msapplication-square310x310logo"
-        content="https://dmrokfxvkn5v8.cloudfront.net/public/wavicon/mstile-310x310.png" />
+        content="https://dmrokfxvkn5v8.cloudfront.net/public/wavicon/mstile-310x310.png">
     <meta name="msapplication-square70x70logo"
-        content="https://dmrokfxvkn5v8.cloudfront.netpublic/wavicon/mstile-70x70.png" />
+        content="https://dmrokfxvkn5v8.cloudfront.netpublic/wavicon/mstile-70x70.png">
     <meta name="msapplication-wide310x150logo"
-        content="https://dmrokfxvkn5v8.cloudfront.net/public/wavicon/mstile-310x150.png" />
-    <meta name="msapplication-TileColor" content="#2d89ef" />
+        content="https://dmrokfxvkn5v8.cloudfront.net/public/wavicon/mstile-310x150.png">
+    <meta name="msapplication-TileColor" content="#2d89ef">
+
+
 
     <link rel="stylesheet" href="assets/css/buoyant-app.css" />
  
+   
+ 
 
-    
-    <link rel="stylesheet" href="https://d1cgs0klucteg0.cloudfront.net/4492e79-7e95905/css/identity.min.css"
-        type="text/css" />
 
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <style type="text/css" id="qual_style-zba"></style>
     <style type="text/css" id="qual_style-zc8"></style>
 </head>
-<style>
-  .wv-frame__content__body--card {
-    background-color: #348d7024 !important;
-}
-button.wv-button--submit.wv-button--fluid.id-auth__login-submit-button {
-    background-color: #1AC18C !important;
-}
-a.wv-text--link {
-    color: #1AC18C;
-}
-a.wv-text--link.colrr {
-    color: #1AC18C;
-}
-</style>
-<body class=""
-    bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWllZ29tY29uIiwiYWRibG9ja2VyU3RhdHVzIjp7IkRJU1BMQVkiOiJkaXNhYmxlZCIsIkZBQ0VCT09LIjoiZGlzYWJsZWQiLCJUV0lUVEVSIjoiZGlzYWJsZWQiLCJSRURESVQiOiJkaXNhYmxlZCJ9LCJ2ZXJzaW9uIjoiMS45LjEwIiwic2NvcmUiOjEwOTEwfV0=">
-    <div style="display: none" bis_skin_checked="1">
+
+<body class="" data-new-gr-c-s-check-loaded="14.1111.0" data-gr-ext-installed="">
+    <div style="display: none;">
         <!--?xml version="1.0" encoding="utf-8"?--><svg xmlns="http://www.w3.org/2000/svg"
             xmlns:xlink="http://www.w3.org/1999/xlink">
             <symbol fill="none" viewBox="0 0 80 80" id="decor--accounting-chart-of-accounts"
@@ -326,14 +294,8 @@ a.wv-text--link.colrr {
                     fill="#fff"></path>
                 <path
                     d="m30.63 24.9c-.27 1.79-1.08 3.14-2.96 2.96-1.63-.16-2.96-1.26-2.96-2.96 0-1.64.99-3.14 2.96-2.96 1.62.15 3.2 1.34 2.96 2.96zm25.95 14.91c-.27 1.79-1.08 3.14-2.96 2.96-1.63-.16-2.96-1.26-2.96-2.96 0-1.64.99-3.14 2.96-2.96 1.62.14 3.2 1.34 2.96 2.96zm-19.66 15.28c-.27 1.79-1.08 3.14-2.96 2.96-1.63-.16-2.96-1.26-2.96-2.96 0-1.64.99-3.14 2.96-2.96 1.63.14 3.2 1.34 2.96 2.96z"
-                    style="
-              fill: #001b66;
-              stroke: #001b66;
-              stroke-width: 3;
-              stroke-miterlimit: 10;
-              stroke-linecap: round;
-              stroke-linejoin: round;
-            "></path>
+                    style="fill:#001b66;stroke:#001b66;stroke-width:3;stroke-miterlimit:10;stroke-linecap:round;stroke-linejoin:round">
+                </path>
             </symbol>
             <symbol fill="none" viewBox="0 0 80 80" id="decor--document-add" xmlns="http://www.w3.org/2000/svg">
                 <path
@@ -1075,7 +1037,7 @@ a.wv-text--link.colrr {
             </symbol>
         </svg>
     </div>
-    <div style="display: none" bis_skin_checked="1">
+    <div style="display: none;">
         <!--?xml version="1.0" encoding="utf-8"?--><svg xmlns="http://www.w3.org/2000/svg"
             xmlns:xlink="http://www.w3.org/1999/xlink">
             <symbol viewBox="0 0 20 20" id="action" xmlns="http://www.w3.org/2000/svg">
@@ -1943,218 +1905,148 @@ a.wv-text--link.colrr {
         </svg>
     </div>
 
-    <div class="wv-frame wv-frame--minimal" bis_skin_checked="1">
-        <div class="wv-frame__global" bis_skin_checked="1"></div>
-        <div class="wv-frame__wrapper" bis_skin_checked="1">
-            <div class="wv-frame__navigation" bis_skin_checked="1">
+
+
+    <!-- Google Tag Manager -->
+    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-BLR8" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+   
+    <!-- End Google Tag Manager -->
+
+
+    <div class="wv-frame wv-frame--minimal">
+        <div class="wv-frame__global"></div>
+        <div class="wv-frame__wrapper">
+            <div class="wv-frame__navigation">
                 <!-- empty -->
             </div>
-            <div class="wv-frame__content--banner-wrapper" bis_skin_checked="1">
-                <div class="wv-frame__content wv-frame__content--banner" bis_skin_checked="1">
-                    <div class="wv-frame__content__side-banner--wrapper" bis_skin_checked="1">
-                        <div class="wv-frame__content__side-banner--container" bis_skin_checked="1">
-                            <div class="wv-frame__content__side-banner" bis_skin_checked="1">
-                                <div class="wv-frame__content__side-banner--centered" bis_skin_checked="1">
-                                    <div bis_skin_checked="1">
-                                        <img src="https://illustrations.waveapps.com/2.2.2/spots/credit-cards.png"
-                                            width="247" height="208" alt="A hand holding a stack of credit cards." />
-                                    </div>
-                                    <div class="wv-heading--title" bis_skin_checked="1">
-                                        Get paid like the pros
-                                    </div>
-                                    <div class="wv-heading--lead" bis_skin_checked="1">
-                                        <span class="wv-heading--lead-break">Give your customers every way to pay
-                                            with</span>
-                                        <span class="wv-heading--lead-break">Wave Payments.</span>
-                                    </div>
-                                </div>
-                                <div bis_skin_checked="1">
-                                    <ul class="wv-list--icon">
-                                        <li>
-                                            <svg class="wv-svg-icon" aria-labelledby="check-title" aria-hidden="false">
-                                                <title id="check-title">check icon</title>
-                                                <use xlink:href="#check"></use>
-                                            </svg>
-                                            Add a secure "Pay now" button to invoices.
-                                        </li>
-                                        <li>
-                                            <svg class="wv-svg-icon" aria-labelledby="check-title" aria-hidden="false">
-                                                <title id="check-title">check icon</title>
-                                                <use xlink:href="#check"></use>
-                                            </svg>
-                                            Accept credit cards, bank transfers, or Apple Pay.
-                                        </li>
-                                        <li>
-                                            <svg class="wv-svg-icon" aria-labelledby="check-title" aria-hidden="false">
-                                                <title id="check-title">check icon</title>
-                                                <use xlink:href="#check"></use>
-                                            </svg>
-                                            Get paid in 1-2 business days.
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
+            <div class="wv-frame__content">
+                <div class="wv-frame__content__header is-active">
+                    <div class="wv-topbar--minimal">
+
+                        <div class="wv-topbar__logo">
+
+                            <a href="https://www.waveapps.com/">
+
+                                <div class="wv-logo">Wave</div>
+                                <div class="wv-logo--mark">Wave</div>
+
+                            </a>
+
                         </div>
+
                     </div>
-                    <div class="wv-frame__content__body--wrapper" bis_skin_checked="1">
-                        <div class="wv-frame__content__body--container" bis_skin_checked="1">
-                            <div class="wv-frame__content__body--card" bis_skin_checked="1">
-                                <div class="wv-frame__content__header is-active" bis_skin_checked="1">
-                                    <div class="wv-topbar" bis_skin_checked="1">
-                                        <div class="wv-topbar__logo" bis_skin_checked="1">
-                                            <a href="https://www.waveapps.com/">
-                                                <div class="wv-logo" bis_skin_checked="1">Wave</div>
-                                                <div class="wv-logo--mark" bis_skin_checked="1">
-                                                    Wave
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="wv-frame__content__body" bis_skin_checked="1">
-                                    <div class="wv-frame__content__body__side wv-frame__content__body__side--left"
-                                        bis_skin_checked="1">
-                                        <!-- empty -->
-                                    </div>
-                                    <div class="wv-frame__content__body__main" bis_skin_checked="1">
-                                        <div class="wv-frame__content__body__main__wrapper" bis_skin_checked="1">
-                                            <div class="wv-content wv-content--fixed" bis_skin_checked="1">
-                                                <div class="wv-content__primary" bis_skin_checked="1">
-                                                    <div class="wv-header--page" bis_skin_checked="1">
-                                                        <div class="wv-header__title" bis_skin_checked="1">
-                                                            <h1 class="wv-heading--title">Sign in</h1>
-                                                        </div>
-                                                    </div>
+                </div>
+                <div class="wv-frame__content__body">
+                    <div class="wv-frame__content__body__side wv-frame__content__body__side--left">
+                        <!-- empty -->
+                    </div>
+                    <div class="wv-frame__content__body__main">
+                        <div class="wv-frame__content__body__main__wrapper ">
 
-                                                    <div class="wv-content wv-content--narrow" bis_skin_checked="1">
-                                                        <div class="wv-content__primary" bis_skin_checked="1"></div>
-                                                    </div>
-
-                                                    <div class="wv-content wv-content--narrow" bis_skin_checked="1">
-                                                        <div class="wv-content__primary" bis_skin_checked="1">
-                                                            <form actioin="" method="post"
-                                                                class="wv-form--vertical id-auth__form">
-                                                                <input type="hidden" name="csrfmiddlewaretoken"
-                                                                    value="B39GPOpJxoL6nscvKrtLGG8H9bxv4NBoCFhupPXA7xoTy2oB9Nx8NZLF23b7l7hJ" />
-
-                                                                <div id="id_username__container"
-                                                                    class="wv-form-field is-required"
-                                                                    bis_skin_checked="1">
-                                                                    <label for="id_username"
-                                                                        class="wv-form-field__label">
-                                                                        Email
-                                                                    </label>
-
-                                                                    <div class="wv-form-field__element"
-                                                                        bis_skin_checked="1">
-                                                                        <input type="email" name="username"
-                                                                            class="wv-input--fluid wv-input emailinput"
-                                                                            autofocus="" maxlength="150" required=""
-                                                                            id="id_username" />
-                                                                    </div>
-                                                                </div>
-                                                                <div id="id_password__container"
-                                                                    class="wv-form-field is-required is-stacked"
-                                                                    bis_skin_checked="1">
-                                                                    <label for="id_password"
-                                                                        class="wv-form-field__label">
-                                                                        Password
-                                                                    </label>
-                                                                    <div class="wv-form-field__element"
-                                                                        bis_skin_checked="1">
-                                                                        <input type="password" name="password"
-                                                                            class="wv-input--fluid wv-input textinput textInput"
-                                                                            required="" id="id_password" />
-                                                                        <div id="hint_id_password"
-                                                                            class="wv-form-field__hint"
-                                                                            bis_skin_checked="1">
-                                                                            <a class="wv-text--link"
-                                                                                href="forget_password.php">Forgot Password?</a>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <input type="hidden" name="next" value="" />
-                                                                <button type="submit"
-                                                                    class="wv-button--submit wv-button--fluid id-auth__login-submit-button">
-                                                                    Sign in
-                                                                </button>
-                                                            </form>
-                                                            <!-- <div
-                                  class="wv-divider--options--fluid"
-                                  bis_skin_checked="1"
-                                >
-                                  or
-                                </div>
-                                <div
-                                  class="id-auth__social-button"
-                                  bis_skin_checked="1"
-                                >
-                                  <a
-                                    class="wv-button--google wv-button--fluid"
-                                    href="/login/google-oauth2/"
-                                  >
-                                    Sign in with Google
-                                  </a>
-                                </div> -->
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="wv-content wv-content--centered" bis_skin_checked="1">
-                                                        <div class="wv-content__primary" bis_skin_checked="1">
-                                                            <div class="wv-content wv-content--narrow"
-                                                                bis_skin_checked="1">
-                                                                <div class="wv-content__primary" bis_skin_checked="1">
-                                                                    <p class="wv-text--fine-print">
-                                                                        By continuing, you are indicating that you
-                                                                        have read and agree to the
-                                                                        <a class="wv-text--link colrr" href="/terms/"
-                                                                            target="_blank">Terms of Use</a>
-                                                                        and
-                                                                        <a class="wv-text--link colrr" href="/privacy/"
-                                                                            target="_blank">Privacy Policy</a>.
-                                                                    </p>
-                                                                </div>
-                                                            </div>
-                                                            <p class="wv-text--fine-print">
-                                                                Don't have a Wave account yet?
-
-                                                                <a id="wave_sign_up" class="wv-text--link colrr" 
-                                                                    href="/register/">Sign up now.</a>
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                            <div class="wv-header--page--centered">
+                                <div class="wv-header__title">
+                                    <h1 class="wv-heading--title">Forgot Your Password?</h1>
                                 </div>
                             </div>
+
+                            <div class="wv-content wv-content--narrow">
+                                <div class="wv-content__primary">
+
+                                    <p class="wv-text">Enter your
+                                        <span class="wv-tooltip__target wv-tooltip__target--inline">primary email
+                                            address
+                                            <span class="wv-tooltip--top">Your primary email address can be the email
+                                                you originally used to sign up for Wave, or the email where you receive
+                                                Wave email notifications. It may be different from your usual business
+                                                or personal email.</span></span>
+                                        and we’ll send you instructions on how to reset your password.
+                                    </p>
+
+
+
+
+                                    <form action="." method="POST" class="wv-form--vertical password-reset-form">
+                                        <input type="hidden" name="csrfmiddlewaretoken"
+                                            value="l1MMa8I8xP7LKQQsdlKorC4w7k7TOAa4dvFdBCEfKYyONjivlAyJL5pTxfqpC7JA">
+
+
+
+
+
+
+
+
+
+
+
+                                        <div id="id_email__container" class="
+      wv-form-field
+       is-required
+      
+      
+      
+    ">
+
+
+
+
+                                            <div class="wv-form-field__element">
+                                                <input type="email" name="email"
+                                                    class="wv-input--fluid  wv-input emailinput" placeholder="Email"
+                                                    required="" id="id_email">
+
+
+
+
+
+
+                                            </div>
+
+
+                                        </div>
+
+
+
+
+
+
+                                        <input type="hidden" name="threat_metrix_session_id"
+                                            id="id_threat_metrix_session_id" value="6315b32a5f8c42858ef981bc3a82bc7a">
+
+
+
+
+
+
+
+                                        <button type="submit" class="wv-button--submit wv-button--fluid">
+                                            Send Reset Instructions
+                                        </button>
+                                    </form>
+                                </div>
+                            </div>
+                            <!-- ThreatMetrix -->
+                          
+
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div id="ada-entry" bis_skin_checked="1">
-        <div bis_skin_checked="1" style="
-          position: fixed;
-          width: 635px;
-          height: 785px;
-          right: 0px;
-          background: linear-gradient(
-            315.92deg,
-            rgba(0, 0, 0, 0.08) 0%,
-            rgba(0, 0, 0, 0) 40.92%
-          );
-          bottom: 0px;
-          pointer-events: none;
-          z-index: 9999;
-          transition: all 500ms linear 0s;
-          opacity: 0;
-        "></div>
-    </div>
+  
+    <iframe src="about:blank" style="display: none;"></iframe>
+    <div id="WPPTrackingId" style="display: none;">6315b32a5f8c42858ef981bc3a82bc7a</div>
 
 
+    <iframe id="qualaroo_dnt_frame" src="//dntcl.qualaroo.com/frame.html" title="Qualaroo iframe for nudge"
+        style="width: 1px; height: 1px; display: none; opacity: 0;"></iframe><iframe id="tdz_ifrm" title="empty" name=""
+        width="0px" height="0px" marginwidth="0" marginheight="0" frameborder="0" aria-disabled="true"
+        aria-hidden="true" tabindex="-1"
+        src="https://h.online-metrix.net/fp/HP?session_id=6315b32a5f8c42858ef981bc3a82bc7a&amp;org_id=hkekmym4&amp;nonce=c942c40772c156ce&amp;mode=2&amp;hp=.co-operativebank.co.uk/CBIBSWeb/login.do.co-operativebank.co.uk/CBIBSWeb/start.do.de/portal/portal/x.entropay.com/basemenu/prot/x.facebook.comx.nationet.com/x.netbank.commbank.com.au/netbank/bankmainx.npbs.co.uk/netmastergoldbanking/x.nwolb.xlogin.aspx?refereridentx.rbsdigital.xAccountSummaryx.smile.co.uk/SmileWeb/login.do.smile.co.uk/SmileWeb/start.do.yandex.rux/CapitalOne_Consumer/x/easypay.by/x/sbank.ru/x53.com/servlet/efsonlinex://online.wellsfargo.com/x://secure.assist.ru/assistid/protected/main.doxabbeynational.co.uk/EBAN_ENS/BtoChannelDriverxalliance-leicesterxaltergold.com/login.phpxamericanexpress.com/myca/intl/acctsumm/emea/accountSummaryxbancaintesa.it/xbankcardservices.co.ukxbankofamerica.com/xbanquepopulaire.fr/xbnpparibas.net/xcahoot.comxcapitaloneonline.co.uk/CapitalOne_Consumer/Transactionsxcbonline.co.uk/ralu/reglm-web/setupSecurityQuestionPagexcibc.comxPreSignOnxcibc.comxSignOnxcitibank.ru/xclient.uralsibbank.ruxco-operativebank.co.uk/CBIBSWeb/loginSpixcommerceonlinebanking.comxcoventrybuildingsociety.co.ukxdeutsche-bank.dexdiscovercard.com/cardmembersvcs/strongauth/app/sa_mainxebanking.bawag.comxebc_ebc1961xegg.com/customer/movemoneyxegg.com/customer/yourmoneyxfacebook.com/xhalifax-online.co.ukxMyAccountsxhalifax-online.co.uk/x/Mhalifax-online.co.uk/personalxhsbc.co.uk/1/2/personal/internet-banking/xhsbc.comxhttps://banking.postbank.de/app/finanzstatus.init.do;jsessionidxib.fineco.it/FinecoWeb/BonificiServletxib.fineco.it/FinecoWeb/jsp/Main/HBFineco.jspxib.fineco.it/FinecoWeb/jsp/Main/Principale.jspxibank.alfabank.ruxin-biz.it/xipko.plxlibertyreserve.com/x/historylibertyreserve.com/x/loginwww.libertyreserve.com/x/Core.jswww.libertyreserve.com/x/transfer.libertyreserve.com/x/commonscript.jslloydstsb.co.uk/personal/a/account_overview/xmbna.co.ukxmenyala.ruxmoney.yandex.ruxmoneybookers.com/app/login.plxmoneymail.ruxmy.ebay.co.uk/ws/eBayISAPI.dll?MyEbayxmy.ebay.com/ws/eBayISAPI.dll?MyEbayxmy.ebay.fr/ws/eBayISAPI.dll?MyEbayxmybusinessbank.co.ukxnationet.com/AppServices/SignOn/SignOnProcess/RcaSignOnxnpbs.co.ukxnwolb.com/AccountSummaryxnwolb.com/Statementsxnwolb.com/TransfersLandingPagexoltx.fidelity.com/x/x/ofsummary/summaryxonline.lloydstsb.co.ukxonlinebanking.mandtbank.com/summary/AccountSummaryxpassport.yandex.ruxpaypal.com/x/cgi-bin/webscr?cmd=_accountxpaypal.com/x/cgi-bin/webscr?cmd=_login-done&amp;login_access=xpaypal.com/us/cgi-bin/webscr?cmd=_login-done&amp;login_access=xposte.it/xpsk.co.at/xsecure.lloydstsb.co.uk/personal/a/account_overviewxsmile.co.uk/SmileWeb/passcodexusaa.com/xusbank.com/internetBanking/RequestRouter?requestCmdId=Gxwachovia.comxybonline.co.uk/ralu/reglm-web/setupSecurityQuestionPagex.amazon.fr/xhistory/orders/view.htmlx.banquepopulaire.frxShowPortal.dox.bnpparibasfortis.bexHome_Logon.aspx.cdiscount.com/Account/Home.aspxx.cmb.frxaccueil.jspx.credit-agricole.frxentreeBam?sessionSAGx.labanquepostale.fr/xreleveCPP-releve_ccp.eax.secure.bnpparibas.net/NSFR?Actionx.secure.lcl.frxAccueilxcredem.it/OneToOne/ebank/functionsxmijn.ing.nl/xonline.ybs.co.ukxwww.discover.com/xorder.cdiscount.comxCustomer.aspxxsealinfo.verisign.com/splash?form_filexvos-comptes.credit-du-nord.fr/CDC_TableauDeBord_0.asp?xvoscomptesenligne.labanquepostale.frxwww.x.caisse-epargne.fr/Portail.aspxxwww.exabanque.netxonglet.phpxdeutsche-bank.de/xnorisbank.de/xpostbank.de/xtargobank.de/x.x.de/portal/x.bankofamerica.com/x/commonscript.js.bmo.com/OLB?id=x.bmo.com/RMC?id=x.chase.com/x.aspxx.chase.com/js/Reporting.jsx.koodomobile.com/account/selfserve/x/xaccountId=x.payment.ru/x.scotiabank.com/portal/index.jsp?xbancopopular.es/empresasxcreval.it/login2007/loginSiciliano.aspxfirst-direct.com/xipko.plxmybusinessbank.co.ukxsanpaoloimi.com/xulsterbankanytimebanking.x/login.aspxx"
+        style="display: none !important; z-index: -9999 !important; visibility: hidden !important;"></iframe>
 </body>
+<grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration>
 
 </html>
