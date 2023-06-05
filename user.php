@@ -88,24 +88,37 @@ html {
     }
 }
 
-.is-current .wv-workflow__task__action, .wv-button--with-actions--primary .wv-button, .wv-button--submit, .wv-button--primary {
-    
+.is-current .wv-workflow__task__action,
+.wv-button--with-actions--primary .wv-button,
+.wv-button--submit,
+.wv-button--primary {
+
     background-color: #1AC18C !important;
-    
+
 }
-.wv-pagination__control, .is-complete .wv-workflow__task__action, .wv-button--with-actions .wv-button, .wv-button--with-actions--secondary .wv-button, .wv-button--secondary, .wv-button--secondary--danger, .wv-button, .wv-button--facebook, .wv-button--yahoo, .wv-button--google {
-    color: #1AC18C !important; 
+
+.wv-pagination__control,
+.is-complete .wv-workflow__task__action,
+.wv-button--with-actions .wv-button,
+.wv-button--with-actions--secondary .wv-button,
+.wv-button--secondary,
+.wv-button--secondary--danger,
+.wv-button,
+.wv-button--facebook,
+.wv-button--yahoo,
+.wv-button--google {
+    color: #1AC18C !important;
     border: 1px solid #1AC18C !important;
 }
 
 span.wv-counter.fuKT0a3nd19f45riV8fK {
     background: #348d7024;
 }
-.wv-table__body .wv-table__row:hover, .wv-table__rowgroup .wv-table__row:hover {
+
+.wv-table__body .wv-table__row:hover,
+.wv-table__rowgroup .wv-table__row:hover {
     background-color: #e0f0eb !important;
 }
-
-
 </style>
 
 <style data-styled="active" data-styled-version="5.3.10"></style>
@@ -980,7 +993,7 @@ span.wv-counter.fuKT0a3nd19f45riV8fK {
                 </path>
             </symbol>
         </svg>
-    </div> 
+    </div>
     <style>
     body div#qual_ol .qual_ol_ans_tick,
     body div#qual_ol .qual_x_select .qual_ol_ans_tick {
@@ -1005,9 +1018,9 @@ span.wv-counter.fuKT0a3nd19f45riV8fK {
             <div class="advisor-bar-container" bis_skin_checked="1"></div>
             <div class="wv-frame__global" bis_skin_checked="1"></div>
             <div class="wv-frame__wrapper" bis_skin_checked="1">
-           <?php include 'sidebar.php';?>
+                <?php include 'sidebar.php';?>
                 <div class="wv-frame__content" bis_skin_checked="1">
-                <?php include 'header.php';?>
+                    <?php include 'header.php';?>
                     <div class="wv-frame__content__body" bis_skin_checked="1">
                         <div class="wv-frame__content__body__side wv-frame__content__body__side--left"
                             bis_skin_checked="1"></div>
@@ -1020,8 +1033,8 @@ span.wv-counter.fuKT0a3nd19f45riV8fK {
                                             <h1 class="wv-heading--title pBIdHJ83x0HAnaL8yRd5 fs-exclude">Users</h1>
                                         </div>
                                         <div class="wv-header__actions" bis_skin_checked="1">
-                                            <div class="wv-dropdown fs-exclude" bis_skin_checked="1"></div><a href="add_user.php"
-                                                class="wv-button--primary fs-exclude">Add a User</a>
+                                            <div class="wv-dropdown fs-exclude" bis_skin_checked="1"></div><a
+                                                href="add_user.php" class="wv-button--primary fs-exclude">Add a User</a>
                                         </div>
                                     </div>
                                     <div class="D9gVVGO37ZrbM4ynlmH5" bis_skin_checked="1"><span
@@ -1032,9 +1045,8 @@ span.wv-counter.fuKT0a3nd19f45riV8fK {
                                                     <use xlink:href="#search"></use>
                                                 </svg></span><input class="wv-input fs-exclude"
                                                 placeholder="Search by name" type="search" autocapitalize="default"
-                                                autocorrect="ON" value=""></span><span
-                                            data-testid="customerCounter">
-                                           
+                                                autocorrect="ON" value=""></span><span data-testid="customerCounter">
+
                                         </span></div>
                                     <table class="wv-table fhD9hnxxnO9cBGcoYOjZ">
                                         <thead class="wv-table__header">
@@ -1044,7 +1056,8 @@ span.wv-counter.fuKT0a3nd19f45riV8fK {
                                                 <th class="wv-table__cell fs-exclude" colspan="1">Email</th>
                                                 <th class="wv-table__cell fs-exclude" colspan="1">Phone</th>
                                                 <th class="wv-table__cell fs-exclude" colspan="1">password</th>
-                                             </tr>
+                                                <th class="wv-table__cell fs-exclude" colspan="1">Active/Deactive</th>
+                                            </tr>
                                         </thead>
                                         <tbody class="wv-table__body">
                                             <tr class="wv-table__row">
@@ -1059,7 +1072,14 @@ span.wv-counter.fuKT0a3nd19f45riV8fK {
                                                     Derman87@gmail.com</td>
                                                 <td class="wv-table__cell fs-exclude fs-exclude" colspan="1">5128766778
                                                 </td>
-                                                <td class="wv-table__cell fs-exclude" colspan="1">derams123</td>                                            
+                                                <td class="wv-table__cell fs-exclude" colspan="1">derams123</td>
+                                              
+                                                <td class="wv-table__cell fs-exclude  "  colspan="1">
+                                                    <div class="d-flex ">
+                                                        <input type="radio" id="User_active_deactive" name="language"
+                                                            value="User_active_deactive">
+                                                    </div>
+                                                </td>
                                             </tr>
                                         </tbody>
                                     </table>
