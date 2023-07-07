@@ -5,6 +5,23 @@
     <meta name="viewport" content="">
     <title>Wave • Derman • Invoices</title>
     <style type="text/css" data-tippy-stylesheet="">
+
+
+
+    .invoice_btn {
+        color: #fff;
+        background-color: #1AC18C;
+        border: none;
+        padding: 5px 8px;
+        border-radius: 5px;
+        text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+
+    }
+
+   
+
     .tippy-iOS {
         cursor: pointer !important;
         -webkit-tap-highlight-color: transparent
@@ -536,7 +553,8 @@
         color="#308df8">
     <link rel="shortcut icon" href="https://dmrokfxvkn5v8.cloudfront.net/public/wavicon/favicon.ico">
 
-    </style><link rel="stylesheet" href="assets/css/buoyant-app.css" /> 
+    </style>
+    <link rel="stylesheet" href="assets/css/buoyant-app.css" />
     <meta name="theme-color" content="#ffffff">
     <meta name="msapplication-square150x150logo"
         content="https://dmrokfxvkn5v8.cloudfront.net/public/wavicon/mstile-150x150.png">
@@ -656,9 +674,9 @@
         src="https://dwdqz3611m4qq.cloudfront.net/static-assets/prod/global/assets/js/vendor/facebook/fbevents.js">
     </script>
     <script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-HP8P"></script>
-   
-   
-   
+
+
+
     <script async="" src="https://www.googletagmanager.com/gtag/js?id=AW-760281212"></script>
     <script id="hs-script-loader" async="" defer="defer" src="https://js.hs-scripts.com/4645450.js"></script>
     <script src="https://cdn.optimizely.com/datafiles/QnoNiLFxdX1GQZMrSrio7A.json/tag.js"></script>
@@ -667,7 +685,7 @@
         display: none !important
     }
     </style>
-  
+
     <script defer="defer" src="/styles.74fc0cceb558b45c2a03.js"></script>
     <script defer="defer" src="/507.653f2195a80d926240fa.js"></script>
     <script defer="defer" src="/main.cb8e833d5d9bd27febe5.js"></script>
@@ -705,18 +723,17 @@
     </script>
     <script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/53/5/util.js">
     </script>
-   
+
     <link rel="stylesheet" type="text/css" integrity="sha256-1ksk1w6tvNv0tSIxcv6kU+GFMdikj2NXJ9l+RWWflt4="
         crossorigin="anonymous"
         href="https://fast.appcues.com/generic/main/4.55.0/container.7a6d8802ece1a378b536e9e6ad0ad2798a6486b5.css">
-    
-   
+
+
 </head>
 
 <body data-new-gr-c-s-check-loaded="14.1111.0" data-gr-ext-installed="">
     <div style="display: none;">
-       <svg xmlns="http://www.w3.org/2000/svg"
-            xmlns:xlink="http://www.w3.org/1999/xlink">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <symbol viewBox="0 0 20 20" id="action" xmlns="http://www.w3.org/2000/svg">
                 <path
                     d="M8.82 13H3a1 1 0 0 1-.78-1.625l8-10c.643-.804 1.936-.227 1.766.79L11.18 7H17a1 1 0 0 1 .78 1.625l-8 10c-.643.804-1.936.227-1.766-.79L8.82 13zm-3.74-2H10a1 1 0 0 1 .986 1.164l-.368 2.213L14.919 9H10a1 1 0 0 1-.986-1.164l.368-2.213L5.081 11z">
@@ -2571,12 +2588,12 @@
         </svg>
     </div>
     <noscript>
-      <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-HP8P" height="0" width="0"
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-HP8P" height="0" width="0"
             style="display:none;visibility:hidden"></iframe></noscript>
-   
+
     <script src="https://dmrokfxvkn5v8.cloudfront.net/branches/main/js/load-svg-sprite.js"></script>
-   
-   
+
+
     <style>
     body div#qual_ol .qual_ol_ans_tick,
     body div#qual_ol .qual_x_select .qual_ol_ans_tick {
@@ -2596,7 +2613,7 @@
         padding-left: 45px
     }
     </style>
-   
+
     <noscript><img height="1" width="1" style="display:none" alt=""
             src="https://px.ads.linkedin.com/collect/?pid=318881&fmt=gif"></noscript>
     <div id="Content" style="height:100%">
@@ -2604,7 +2621,7 @@
             <div class="advisor-bar-container"></div>
             <div class="wv-frame__global"></div>
             <div class="wv-frame__wrapper">
-               <?php include 'sidebar.php'; ?>
+                <?php include 'sidebar.php'; ?>
                 <div class="wv-frame__content">
                     <?php include 'header.php';?>
                     <div class="wv-frame__content__body">
@@ -2628,7 +2645,7 @@
                                         </div>
                                     </div>
                                     <div class="invoice-insights-container wv-content">
-                                        <div class="invoice-insights wv-box wv-box--large wv-content__primary">
+                                        <!-- <div class="invoice-insights wv-box wv-box--large wv-content__primary">
                                             <div class="invoice-insights__content wv-box__content">
                                                 <div class="invoice-insights__content__row">
                                                     <div class="invoice-insights__content__column">
@@ -2707,367 +2724,15 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </div> -->
                                     </div>
                                     <div class="uzZwN5yy8slmKZICXGmC"><span class="wv-counter">0</span>
                                         <p class="wv-text wv-text--hint fs-exclude wv-text--inline">active filters</p>
                                     </div>
                                     <div>
-                                        <div class="invoice-list-filters--container"><span
-                                                class="invoice-list-filters--container__customer-filter fs-exclude">
-                                                <div class="wv-select wv-select--fluid fs-exclude" tabindex="0">
-                                                    <div class="wv-select__input wv-select__toggle"><span
-                                                            class="wv-select__label">All customers</span>
-                                                        <div class="wv-select__input__icon"><svg class="wv-svg-icon"
-                                                                aria-labelledby="open-menu-title" aria-hidden="false">
-                                                                <title id="open-menu-title">open menu icon</title>
-                                                                <use xlink:href="#open-menu"></use>
-                                                            </svg></div>
-                                                    </div>
-                                                </div>
-                                            </span><span class="invoice-list-filters--container__status-filter">
-                                                <div class="wv-select wv-select--fluid fs-exclude" tabindex="0">
-                                                    <div class="wv-select__input wv-select__toggle"><span
-                                                            class="wv-select__label">All statuses</span>
-                                                        <div class="wv-select__input__icon"><svg class="wv-svg-icon"
-                                                                aria-labelledby="open-menu-title" aria-hidden="false">
-                                                                <title id="open-menu-title">open menu icon</title>
-                                                                <use xlink:href="#open-menu"></use>
-                                                            </svg></div>
-                                                    </div>
-                                                </div>
-                                            </span><span class="invoice-list-filters--container__date-filter">
-                                                <div class="wv-datepicker--range">
-                                                    <div
-                                                        class="wv-datepicker input-toggle with-clearing with-quicklinks wv-datepicker__from">
-                                                        <span class="wv-suffixed-input"><input
-                                                                class="wv-input wv-datepicker__toggle--input"
-                                                                placeholder="From" value=""><button
-                                                                class="wv-suffixed-input__suffix wv-datepicker__toggle--icon"><svg
-                                                                    class="wv-svg-icon" aria-labelledby="date-title"
-                                                                    aria-hidden="false">
-                                                                    <title id="date-title">date icon</title>
-                                                                    <use xlink:href="#date"></use>
-                                                                </svg></button></span>
-                                                        <div class="wv-datepicker__panel">
-                                                            <div class="wv-datepicker__header">
-                                                                <div class="wv-datepicker__header__title"><strong
-                                                                        class="wv-text--strong fs-exclude">From</strong>
-                                                                    <p class="wv-text wv-text--hint fs-exclude">Start of
-                                                                        date range</p>
-                                                                </div><button type="button"
-                                                                    class="wv-close--large wv-datepicker__toggle--close"></button>
-                                                            </div>
-                                                            <div class="wv-datepicker__main">
-                                                                <div class="wv-datepicker__grid">
-                                                                    <div class="wv-datepicker__filters">
-                                                                        <div class="wv-datepicker__filter--back"><svg
-                                                                                class="wv-svg-icon"
-                                                                                aria-labelledby="back-title"
-                                                                                aria-hidden="false">
-                                                                                <title id="back-title">back icon</title>
-                                                                                <use xlink:href="#back"></use>
-                                                                            </svg></div>
-                                                                        <div
-                                                                            class="wv-dropdown wv-datepicker__filter--month fs-exclude">
-                                                                            <span class="wv-dropdown__toggle">Jun<svg
-                                                                                    class="wv-svg-icon"
-                                                                                    aria-labelledby="open-menu-title"
-                                                                                    aria-hidden="false">
-                                                                                    <title id="open-menu-title">open
-                                                                                        month dropdown</title>
-                                                                                    <use xlink:href="#open-menu"></use>
-                                                                                </svg></span></div>
-                                                                        <div
-                                                                            class="wv-dropdown wv-datepicker__filter--year fs-exclude">
-                                                                            <span class="wv-dropdown__toggle">2023<svg
-                                                                                    class="wv-svg-icon"
-                                                                                    aria-labelledby="open-menu-title"
-                                                                                    aria-hidden="false">
-                                                                                    <title id="open-menu-title">open
-                                                                                        year dropdown</title>
-                                                                                    <use xlink:href="#open-menu"></use>
-                                                                                </svg></span></div>
-                                                                        <div class="wv-datepicker__filter--forward"><svg
-                                                                                class="wv-svg-icon"
-                                                                                aria-labelledby="forward-title"
-                                                                                aria-hidden="false">
-                                                                                <title id="forward-title">forward icon
-                                                                                </title>
-                                                                                <use xlink:href="#forward"></use>
-                                                                            </svg></div>
-                                                                    </div>
-                                                                    <table class="wv-datepicker__month">
-                                                                        <thead>
-                                                                            <tr>
-                                                                                <th class="wv-datepicker__week-day">
-                                                                                    <abbr title="Sunday">SU</abbr></th>
-                                                                                <th class="wv-datepicker__week-day">
-                                                                                    <abbr title="Monday">MO</abbr></th>
-                                                                                <th class="wv-datepicker__week-day">
-                                                                                    <abbr title="Tuesday">TU</abbr></th>
-                                                                                <th class="wv-datepicker__week-day">
-                                                                                    <abbr title="Wednesday">WE</abbr>
-                                                                                </th>
-                                                                                <th class="wv-datepicker__week-day">
-                                                                                    <abbr title="Thursday">TH</abbr>
-                                                                                </th>
-                                                                                <th class="wv-datepicker__week-day">
-                                                                                    <abbr title="Friday">FR</abbr></th>
-                                                                                <th class="wv-datepicker__week-day">
-                                                                                    <abbr title="Saturday">SA</abbr>
-                                                                                </th>
-                                                                            </tr>
-                                                                        </thead>
-                                                                        <tbody class="wv-datepicker__day-grid">
-                                                                            <tr>
-                                                                                <td
-                                                                                    class="wv-datepicker__day is-out-of-month">
-                                                                                    28</td>
-                                                                                <td
-                                                                                    class="wv-datepicker__day is-out-of-month">
-                                                                                    29</td>
-                                                                                <td
-                                                                                    class="wv-datepicker__day is-out-of-month">
-                                                                                    30</td>
-                                                                                <td
-                                                                                    class="wv-datepicker__day is-out-of-month">
-                                                                                    31</td>
-                                                                                <td
-                                                                                    class="wv-datepicker__day is-selected">
-                                                                                    1</td>
-                                                                                <td class="wv-datepicker__day">2</td>
-                                                                                <td class="wv-datepicker__day">3</td>
-                                                                            </tr>
-                                                                            <tr>
-                                                                                <td class="wv-datepicker__day">4</td>
-                                                                                <td class="wv-datepicker__day">5</td>
-                                                                                <td class="wv-datepicker__day">6</td>
-                                                                                <td class="wv-datepicker__day">7</td>
-                                                                                <td class="wv-datepicker__day">8</td>
-                                                                                <td class="wv-datepicker__day">9</td>
-                                                                                <td class="wv-datepicker__day">10</td>
-                                                                            </tr>
-                                                                            <tr>
-                                                                                <td class="wv-datepicker__day">11</td>
-                                                                                <td class="wv-datepicker__day">12</td>
-                                                                                <td class="wv-datepicker__day">13</td>
-                                                                                <td class="wv-datepicker__day">14</td>
-                                                                                <td class="wv-datepicker__day">15</td>
-                                                                                <td class="wv-datepicker__day">16</td>
-                                                                                <td class="wv-datepicker__day">17</td>
-                                                                            </tr>
-                                                                            <tr>
-                                                                                <td class="wv-datepicker__day">18</td>
-                                                                                <td class="wv-datepicker__day">19</td>
-                                                                                <td class="wv-datepicker__day">20</td>
-                                                                                <td class="wv-datepicker__day">21</td>
-                                                                                <td class="wv-datepicker__day">22</td>
-                                                                                <td class="wv-datepicker__day">23</td>
-                                                                                <td class="wv-datepicker__day">24</td>
-                                                                            </tr>
-                                                                            <tr>
-                                                                                <td class="wv-datepicker__day">25</td>
-                                                                                <td class="wv-datepicker__day">26</td>
-                                                                                <td class="wv-datepicker__day">27</td>
-                                                                                <td class="wv-datepicker__day">28</td>
-                                                                                <td class="wv-datepicker__day">29</td>
-                                                                                <td class="wv-datepicker__day">30</td>
-                                                                                <td
-                                                                                    class="wv-datepicker__day is-out-of-month">
-                                                                                    1</td>
-                                                                            </tr>
-                                                                        </tbody>
-                                                                    </table>
-                                                                </div>
-                                                                <ul
-                                                                    class="wv-datepicker__quicklinks wv-list--plain--vertical">
-                                                                    <li class="wv-datepicker__quicklink">30 Days Ago
-                                                                    </li>
-                                                                    <li class="wv-datepicker__quicklink">60 Days Ago
-                                                                    </li>
-                                                                    <li class="wv-datepicker__quicklink">90 Days Ago
-                                                                    </li>
-                                                                    <li class="wv-datepicker__quicklink">6 Months Ago
-                                                                    </li>
-                                                                    <li class="wv-datepicker__quicklink">1 Year Ago</li>
-                                                                </ul>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div
-                                                        class="wv-datepicker input-toggle with-clearing with-quicklinks wv-datepicker__to">
-                                                        <span class="wv-suffixed-input"><input
-                                                                class="wv-input wv-datepicker__toggle--input"
-                                                                placeholder="To" value=""><button
-                                                                class="wv-suffixed-input__suffix wv-datepicker__toggle--icon"><svg
-                                                                    class="wv-svg-icon" aria-labelledby="date-title"
-                                                                    aria-hidden="false">
-                                                                    <title id="date-title">date icon</title>
-                                                                    <use xlink:href="#date"></use>
-                                                                </svg></button></span>
-                                                        <div class="wv-datepicker__panel">
-                                                            <div class="wv-datepicker__header">
-                                                                <div class="wv-datepicker__header__title"><strong
-                                                                        class="wv-text--strong fs-exclude">To</strong>
-                                                                    <p class="wv-text wv-text--hint fs-exclude">End of
-                                                                        date range</p>
-                                                                </div><button type="button"
-                                                                    class="wv-close--large wv-datepicker__toggle--close"></button>
-                                                            </div>
-                                                            <div class="wv-datepicker__main">
-                                                                <div class="wv-datepicker__grid">
-                                                                    <div class="wv-datepicker__filters">
-                                                                        <div class="wv-datepicker__filter--back"><svg
-                                                                                class="wv-svg-icon"
-                                                                                aria-labelledby="back-title"
-                                                                                aria-hidden="false">
-                                                                                <title id="back-title">back icon</title>
-                                                                                <use xlink:href="#back"></use>
-                                                                            </svg></div>
-                                                                        <div
-                                                                            class="wv-dropdown wv-datepicker__filter--month fs-exclude">
-                                                                            <span class="wv-dropdown__toggle">Jun<svg
-                                                                                    class="wv-svg-icon"
-                                                                                    aria-labelledby="open-menu-title"
-                                                                                    aria-hidden="false">
-                                                                                    <title id="open-menu-title">open
-                                                                                        month dropdown</title>
-                                                                                    <use xlink:href="#open-menu"></use>
-                                                                                </svg></span></div>
-                                                                        <div
-                                                                            class="wv-dropdown wv-datepicker__filter--year fs-exclude">
-                                                                            <span class="wv-dropdown__toggle">2023<svg
-                                                                                    class="wv-svg-icon"
-                                                                                    aria-labelledby="open-menu-title"
-                                                                                    aria-hidden="false">
-                                                                                    <title id="open-menu-title">open
-                                                                                        year dropdown</title>
-                                                                                    <use xlink:href="#open-menu"></use>
-                                                                                </svg></span></div>
-                                                                        <div class="wv-datepicker__filter--forward"><svg
-                                                                                class="wv-svg-icon"
-                                                                                aria-labelledby="forward-title"
-                                                                                aria-hidden="false">
-                                                                                <title id="forward-title">forward icon
-                                                                                </title>
-                                                                                <use xlink:href="#forward"></use>
-                                                                            </svg></div>
-                                                                    </div>
-                                                                    <table class="wv-datepicker__month">
-                                                                        <thead>
-                                                                            <tr>
-                                                                                <th class="wv-datepicker__week-day">
-                                                                                    <abbr title="Sunday">SU</abbr></th>
-                                                                                <th class="wv-datepicker__week-day">
-                                                                                    <abbr title="Monday">MO</abbr></th>
-                                                                                <th class="wv-datepicker__week-day">
-                                                                                    <abbr title="Tuesday">TU</abbr></th>
-                                                                                <th class="wv-datepicker__week-day">
-                                                                                    <abbr title="Wednesday">WE</abbr>
-                                                                                </th>
-                                                                                <th class="wv-datepicker__week-day">
-                                                                                    <abbr title="Thursday">TH</abbr>
-                                                                                </th>
-                                                                                <th class="wv-datepicker__week-day">
-                                                                                    <abbr title="Friday">FR</abbr></th>
-                                                                                <th class="wv-datepicker__week-day">
-                                                                                    <abbr title="Saturday">SA</abbr>
-                                                                                </th>
-                                                                            </tr>
-                                                                        </thead>
-                                                                        <tbody class="wv-datepicker__day-grid">
-                                                                            <tr>
-                                                                                <td
-                                                                                    class="wv-datepicker__day is-out-of-month">
-                                                                                    28</td>
-                                                                                <td
-                                                                                    class="wv-datepicker__day is-out-of-month">
-                                                                                    29</td>
-                                                                                <td
-                                                                                    class="wv-datepicker__day is-out-of-month">
-                                                                                    30</td>
-                                                                                <td
-                                                                                    class="wv-datepicker__day is-out-of-month">
-                                                                                    31</td>
-                                                                                <td
-                                                                                    class="wv-datepicker__day is-selected">
-                                                                                    1</td>
-                                                                                <td class="wv-datepicker__day">2</td>
-                                                                                <td class="wv-datepicker__day">3</td>
-                                                                            </tr>
-                                                                            <tr>
-                                                                                <td class="wv-datepicker__day">4</td>
-                                                                                <td class="wv-datepicker__day">5</td>
-                                                                                <td class="wv-datepicker__day">6</td>
-                                                                                <td class="wv-datepicker__day">7</td>
-                                                                                <td class="wv-datepicker__day">8</td>
-                                                                                <td class="wv-datepicker__day">9</td>
-                                                                                <td class="wv-datepicker__day">10</td>
-                                                                            </tr>
-                                                                            <tr>
-                                                                                <td class="wv-datepicker__day">11</td>
-                                                                                <td class="wv-datepicker__day">12</td>
-                                                                                <td class="wv-datepicker__day">13</td>
-                                                                                <td class="wv-datepicker__day">14</td>
-                                                                                <td class="wv-datepicker__day">15</td>
-                                                                                <td class="wv-datepicker__day">16</td>
-                                                                                <td class="wv-datepicker__day">17</td>
-                                                                            </tr>
-                                                                            <tr>
-                                                                                <td class="wv-datepicker__day">18</td>
-                                                                                <td class="wv-datepicker__day">19</td>
-                                                                                <td class="wv-datepicker__day">20</td>
-                                                                                <td class="wv-datepicker__day">21</td>
-                                                                                <td class="wv-datepicker__day">22</td>
-                                                                                <td class="wv-datepicker__day">23</td>
-                                                                                <td class="wv-datepicker__day">24</td>
-                                                                            </tr>
-                                                                            <tr>
-                                                                                <td class="wv-datepicker__day">25</td>
-                                                                                <td class="wv-datepicker__day">26</td>
-                                                                                <td class="wv-datepicker__day">27</td>
-                                                                                <td class="wv-datepicker__day">28</td>
-                                                                                <td class="wv-datepicker__day">29</td>
-                                                                                <td class="wv-datepicker__day">30</td>
-                                                                                <td
-                                                                                    class="wv-datepicker__day is-out-of-month">
-                                                                                    1</td>
-                                                                            </tr>
-                                                                        </tbody>
-                                                                    </table>
-                                                                </div>
-                                                                <ul
-                                                                    class="wv-datepicker__quicklinks wv-list--plain--vertical">
-                                                                    <li class="wv-datepicker__quicklink">30 Days Ago
-                                                                    </li>
-                                                                    <li class="wv-datepicker__quicklink">60 Days Ago
-                                                                    </li>
-                                                                    <li class="wv-datepicker__quicklink">90 Days Ago
-                                                                    </li>
-                                                                    <li class="wv-datepicker__quicklink">6 Months Ago
-                                                                    </li>
-                                                                    <li class="wv-datepicker__quicklink">1 Year Ago</li>
-                                                                </ul>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </span><span class="invoice-list-filters--container__invoice-filter">
-                                                <div class="wv-input--search"><input
-                                                        class="wv-input fs-exclude wv-input--medium"
-                                                        placeholder="Enter invoice #" type="text"
-                                                        autocapitalize="default" autocorrect="ON" value=""><button
-                                                        class="wv-input__button"><svg class="wv-svg-icon"
-                                                            aria-labelledby="search-title" aria-hidden="false">
-                                                            <title id="search-title">search icon</title>
-                                                            <use xlink:href="#search"></use>
-                                                        </svg></button></div>
-                                            </span></div>
-                                    </div>
-                                    <div class="invoice-list-tabs">
-                                        <div class="wv-nav--secondary">
-                                            <div class="wv-nav__tabs">
+                                        <div class="invoice-list-tabs">
+                                            <div class="wv-nav--secondary">
+                                                <!-- <div class="wv-nav__tabs">
                                                 <ul class="wv-nav__section" role="tablist">
                                                     <li class="wv-nav__item" role="tab" aria-selected="true"
                                                         aria-controls="invoice-list-tabs-panel-0"
@@ -3084,189 +2749,146 @@
                                                         id="invoice-list-tabs-tab-2" tabindex="-1"><span
                                                             class="wv-nav__link">All invoices</span></li>
                                                 </ul>
-                                            </div>
-                                            <div role="tabpanel" aria-labelledby="invoice-list-tabs-tab-0"
-                                                id="invoice-list-tabs-panel-0" tabindex="0">
-                                                <div class="invoice-list-table tab-unpaid">
-                                                    <div class="invoice-row-popover" style="top: 0px;">
-                                                        <div class="wv-popover__trigger"><span class="anchorSpan"
-                                                                tabindex="0"></span></div>
-                                                    </div>
-                                                    <table class="wv-table--condensed">
-                                                        <thead class="wv-table__header">
-                                                            <tr class="wv-table__row">
-                                                                <th class="wv-table__cell invoice-list-table--header-row__status-cell fs-exclude"
-                                                                    colspan="1">Status</th>
-                                                                <th class="wv-table__cell invoice-list-table--header-row__due-date-cell fs-exclude"
-                                                                    colspan="1"><span
-                                                                        class="wv-table__sort-trigger sort-asc">Due</span>
-                                                                </th>
-                                                                <th class="wv-table__cell invoice-list-table--header-row__date-cell fs-exclude"
-                                                                    colspan="1"><span
-                                                                        class="wv-table__sort-trigger ">Date</span></th>
-                                                                <th class="wv-table__cell invoice-list-table--header-row__number-cell fs-exclude"
-                                                                    colspan="1"><span
-                                                                        class="wv-table__sort-trigger ">Number</span>
-                                                                </th>
-                                                                <th class="wv-table__cell invoice-list-table--header-row__customer-cell fs-exclude"
-                                                                    colspan="1"><span
-                                                                        class="wv-table__sort-trigger ">Customer</span>
-                                                                </th>
-                                                                <th class="wv-table__cell invoice-list-table--header-row__unpaid-by-customer-cell fs-exclude"
-                                                                    colspan="1"><span class="wv-table__sort-trigger ">
-                                                                        <p class="wv-text wv-text--body wv-tooltip__trigger invoice-list-table--header-row__unpaid-by-customer-text wv-tooltip__target--inline fs-exclude wv-text--inline"
-                                                                            tabindex="0"><strong
-                                                                                class="wv-text--strong fs-exclude">Unpaid
-                                                                                by&nbsp;customer</strong></p>
-                                                                    </span></th>
-                                                                <th class="wv-table__cell--amount invoice-list-table--header-row__amount-due-cell fs-exclude"
-                                                                    colspan="1"><span
-                                                                        class="wv-table__sort-trigger ">Amount
-                                                                        due</span></th>
-                                                                <th class="wv-table__cell--actions invoice-list-table__action-cell fs-exclude"
-                                                                    colspan="1">Actions</th>
-                                                            </tr>
-                                                        </thead>
-                                                        <tbody class="wv-table__body">
-                                                            <tr class="wv-table__row">
-                                                                <td class="wv-table__cell fs-exclude" colspan="1"><a
-                                                                        href="/4ca14d42-ebb1-425c-8837-93261d4e42c6/invoices/1723546623851675275/view"><span
-                                                                            class="wv-badge wv-badge--danger wv-tooltip__trigger">overdue</span></a>
-                                                                </td>
-                                                                <td class="wv-table__cell fs-exclude" colspan="1"><a
-                                                                        href="/4ca14d42-ebb1-425c-8837-93261d4e42c6/invoices/1723546623851675275/view"><span><span
-                                                                                class="overdue">25 days
-                                                                                ago</span></span></a></td>
-                                                                <td class="wv-table__cell fs-exclude" colspan="1"><a
-                                                                        href="/4ca14d42-ebb1-425c-8837-93261d4e42c6/invoices/1723546623851675275/view"><span>2023-05-07</span></a>
-                                                                </td>
-                                                                <td class="wv-table__cell fs-exclude" colspan="1"><a
-                                                                        href="/4ca14d42-ebb1-425c-8837-93261d4e42c6/invoices/1723546623851675275/view"><span>1</span></a>
-                                                                </td>
-                                                                <td class="wv-table__cell fs-exclude" colspan="1"><a
-                                                                        href="/4ca14d42-ebb1-425c-8837-93261d4e42c6/invoices/1723546623851675275/view"><span
-                                                                            class="customer-name fs-exclude"><span>Lido
-                                                                                Carrier</span></span></a></td>
-                                                                <td class="wv-table__cell fs-exclude" colspan="1"><a
-                                                                        href="/4ca14d42-ebb1-425c-8837-93261d4e42c6/invoices/1723546623851675275/view"><span><span
-                                                                                class="unpaid-by-customer">1 of
-                                                                                2</span></span></a></td>
-                                                                <td class="wv-table__cell--amount fs-exclude"
-                                                                    colspan="1"><a
-                                                                        href="/4ca14d42-ebb1-425c-8837-93261d4e42c6/invoices/1723546623851675275/view"><span
-                                                                            class="amount-due">
-                                                                            <p
-                                                                                class="wv-text wv-text--body fs-exclude wv-text--inline">
-                                                                                <span>$1,398.19</span></p>
-                                                                        </span></a></td>
-                                                                <td class="wv-table__cell--actions invoice-list-table__action-cell fs-exclude"
-                                                                    colspan="1">
-                                                                    <div
-                                                                        class="invoice-list-table__actions-cell-content">
-                                                                        <a class="wv-text--link fs-exclude">Record
-                                                                            payment</a>
-                                                                        <div class="wv-dropdown fs-exclude"><button
-                                                                                class="wv-dropdown__toggle wv-button--small wv-button--secondary"><svg
-                                                                                    class="wv-svg-icon"
-                                                                                    aria-labelledby="open-menu-title"
-                                                                                    aria-hidden="false">
-                                                                                    <title id="open-menu-title">open
-                                                                                        menu icon</title>
-                                                                                    <use xlink:href="#open-menu"></use>
-                                                                                </svg></button></div>
+                                            </div> -->
+                                                <div role="tabpanel" aria-labelledby="invoice-list-tabs-tab-0"
+                                                    id="invoice-list-tabs-panel-0" tabindex="0">
+                                                    <div class="invoice-list-table tab-unpaid">
+                                                        <div class="invoice-row-popover" style="top: 0px;">
+                                                            <div class="wv-popover__trigger"><span class="anchorSpan"
+                                                                    tabindex="0"></span></div>
+                                                        </div>
+                                                        <table class="wv-table--condensed">
+                                                            <thead class="wv-table__header">
+                                                                <tr class="wv-table__row">
+                                                                    <th class="wv-table__cell invoice-list-table--header-row__status-cell fs-exclude"
+                                                                        colspan="1">Status</th>
+                                                                    <th class="wv-table__cell invoice-list-table--header-row__due-date-cell fs-exclude"
+                                                                        colspan="1"><span
+                                                                            class="wv-table__sort-trigger sort-asc">Due</span>
+                                                                    </th>
+                                                                    <th class="wv-table__cell invoice-list-table--header-row__date-cell fs-exclude"
+                                                                        colspan="1"><span
+                                                                            class="wv-table__sort-trigger ">Date</span>
+                                                                    </th>
+                                                                    <th class="wv-table__cell invoice-list-table--header-row__number-cell fs-exclude"
+                                                                        colspan="1"><span
+                                                                            class="wv-table__sort-trigger ">Number</span>
+                                                                    </th>
+                                                                    <th class="wv-table__cell invoice-list-table--header-row__customer-cell fs-exclude"
+                                                                        colspan="1"><span
+                                                                            class="wv-table__sort-trigger ">Customer</span>
+                                                                    </th>
+                                                                    <th class="wv-table__cell invoice-list-table--header-row__unpaid-by-customer-cell fs-exclude"
+                                                                        colspan="1"><span
+                                                                            class="wv-table__sort-trigger ">
+                                                                            <p class="wv-text wv-text--body wv-tooltip__trigger invoice-list-table--header-row__unpaid-by-customer-text wv-tooltip__target--inline fs-exclude wv-text--inline"
+                                                                                tabindex="0"><strong
+                                                                                    class="wv-text--strong fs-exclude">Unpaid
+                                                                                    by&nbsp;customer</strong></p>
+                                                                        </span></th>
+                                                                    <th class="wv-table__cell--amount invoice-list-table--header-row__amount-due-cell fs-exclude"
+                                                                        colspan="1"><span
+                                                                            class="wv-table__sort-trigger ">Amount
+                                                                            due</span></th>
+                                                                    <th class="wv-table__cell--actions invoice-list-table__action-cell fs-exclude"
+                                                                        colspan="1">Actions</th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody class="wv-table__body">
+                                                                <tr class="wv-table__row">
+                                                                    <td class="wv-table__cell fs-exclude" colspan="1"><a
+                                                                            href="/4ca14d42-ebb1-425c-8837-93261d4e42c6/invoices/1723546623851675275/view"><span
+                                                                                class="wv-badge wv-badge--danger wv-tooltip__trigger">overdue</span></a>
+                                                                    </td>
+                                                                    <td class="wv-table__cell fs-exclude" colspan="1"><a
+                                                                            href="/4ca14d42-ebb1-425c-8837-93261d4e42c6/invoices/1723546623851675275/view"><span><span
+                                                                                    class="overdue">25 days
+                                                                                    ago</span></span></a></td>
+                                                                    <td class="wv-table__cell fs-exclude" colspan="1"><a
+                                                                            href="/4ca14d42-ebb1-425c-8837-93261d4e42c6/invoices/1723546623851675275/view"><span>2023-05-07</span></a>
+                                                                    </td>
+                                                                    <td class="wv-table__cell fs-exclude" colspan="1"><a
+                                                                            href="/4ca14d42-ebb1-425c-8837-93261d4e42c6/invoices/1723546623851675275/view"><span>1</span></a>
+                                                                    </td>
+                                                                    <td class="wv-table__cell fs-exclude" colspan="1"><a
+                                                                            href="/4ca14d42-ebb1-425c-8837-93261d4e42c6/invoices/1723546623851675275/view"><span
+                                                                                class="customer-name fs-exclude"><span>Lido
+                                                                                    Carrier</span></span></a></td>
+                                                                    <td class="wv-table__cell fs-exclude" colspan="1"><a
+                                                                            href="/4ca14d42-ebb1-425c-8837-93261d4e42c6/invoices/1723546623851675275/view"><span><span
+                                                                                    class="unpaid-by-customer">1 of
+                                                                                    2</span></span></a></td>
+                                                                    <td class="wv-table__cell--amount fs-exclude"
+                                                                        colspan="1"><a
+                                                                            href="/4ca14d42-ebb1-425c-8837-93261d4e42c6/invoices/1723546623851675275/view"><span
+                                                                                class="amount-due">
+                                                                                <p
+                                                                                    class="wv-text wv-text--body fs-exclude wv-text--inline">
+                                                                                    <span>$1,398.19</span>
+                                                                                </p>
+                                                                            </span></a></td>
+                                                                    <td class="wv-table__cell--actions invoice-list-table__action-cell fs-exclude"
+                                                                        colspan="1">
+
+
+                                                                        <a href="view_invoice.php" class="invoice_btn">view</a>
+                                                                        <a href="your_link_here" class="invoice_btn">Edit</a>
+                                                                        <a href="your_link_here" class="invoice_btn">Delete</a>
+
+                                                                     
+                                                                    </td>
+                                                                </tr>
+
+
+
+
+                                                            </tbody>
+                                                        </table>
+                                                        <div class="wv-pagination">
+                                                            <div class="wv-pagination__results">
+                                                                <div class="wv-text">Show:</div>
+                                                                <div class="wv-select wv-select--medium has-selection fs-exclude"
+                                                                    tabindex="0">
+                                                                    <div class="wv-select__input wv-select__toggle">
+                                                                        <span><span
+                                                                                class="wv-select__label">25</span></span>
+                                                                        <div class="wv-select__input__icon"><svg
+                                                                                class="wv-svg-icon"
+                                                                                aria-labelledby="open-menu-title"
+                                                                                aria-hidden="false">
+                                                                                <title id="open-menu-title">open menu
+                                                                                    icon
+                                                                                </title>
+                                                                                <use xlink:href="#open-menu"></use>
+                                                                            </svg></div>
                                                                     </div>
-                                                                </td>
-                                                            </tr>
-                                                            <tr class="wv-table__row">
-                                                                <td class="wv-table__cell fs-exclude" colspan="1"><a
-                                                                        href="/4ca14d42-ebb1-425c-8837-93261d4e42c6/invoices/1735585690650984152/view"><span
-                                                                            class="wv-badge wv-badge--danger wv-tooltip__trigger">overdue</span></a>
-                                                                </td>
-                                                                <td class="wv-table__cell fs-exclude" colspan="1"><a
-                                                                        href="/4ca14d42-ebb1-425c-8837-93261d4e42c6/invoices/1735585690650984152/view"><span><span
-                                                                                class="overdue">8 days
-                                                                                ago</span></span></a></td>
-                                                                <td class="wv-table__cell fs-exclude" colspan="1"><a
-                                                                        href="/4ca14d42-ebb1-425c-8837-93261d4e42c6/invoices/1735585690650984152/view"><span>2023-05-24</span></a>
-                                                                </td>
-                                                                <td class="wv-table__cell fs-exclude" colspan="1"><a
-                                                                        href="/4ca14d42-ebb1-425c-8837-93261d4e42c6/invoices/1735585690650984152/view"><span>3</span></a>
-                                                                </td>
-                                                                <td class="wv-table__cell fs-exclude" colspan="1"><a
-                                                                        href="/4ca14d42-ebb1-425c-8837-93261d4e42c6/invoices/1735585690650984152/view"><span
-                                                                            class="customer-name fs-exclude"><span>Lido
-                                                                                Carrier</span></span></a></td>
-                                                                <td class="wv-table__cell fs-exclude" colspan="1"><a
-                                                                        href="/4ca14d42-ebb1-425c-8837-93261d4e42c6/invoices/1735585690650984152/view"><span><span
-                                                                                class="unpaid-by-customer">2 of
-                                                                                2</span></span></a></td>
-                                                                <td class="wv-table__cell--amount fs-exclude"
-                                                                    colspan="1"><a
-                                                                        href="/4ca14d42-ebb1-425c-8837-93261d4e42c6/invoices/1735585690650984152/view"><span
-                                                                            class="amount-due">
-                                                                            <p
-                                                                                class="wv-text wv-text--body fs-exclude wv-text--inline">
-                                                                                <span>$3,300.00</span></p>
-                                                                        </span></a></td>
-                                                                <td class="wv-table__cell--actions invoice-list-table__action-cell fs-exclude"
-                                                                    colspan="1">
-                                                                    <div
-                                                                        class="invoice-list-table__actions-cell-content">
-                                                                        <a class="wv-text--link fs-exclude">Record
-                                                                            payment</a>
-                                                                        <div class="wv-dropdown fs-exclude"><button
-                                                                                class="wv-dropdown__toggle wv-button--small wv-button--secondary"><svg
-                                                                                    class="wv-svg-icon"
-                                                                                    aria-labelledby="open-menu-title"
-                                                                                    aria-hidden="false">
-                                                                                    <title id="open-menu-title">open
-                                                                                        menu icon</title>
-                                                                                    <use xlink:href="#open-menu"></use>
-                                                                                </svg></button></div>
-                                                                    </div>
-                                                                </td>
-                                                            </tr>
-                                                        </tbody>
-                                                    </table>
-                                                    <div class="wv-pagination">
-                                                        <div class="wv-pagination__results">
-                                                            <div class="wv-text">Show:</div>
-                                                            <div class="wv-select wv-select--medium has-selection fs-exclude"
-                                                                tabindex="0">
-                                                                <div class="wv-select__input wv-select__toggle">
-                                                                    <span><span
-                                                                            class="wv-select__label">25</span></span>
-                                                                    <div class="wv-select__input__icon"><svg
-                                                                            class="wv-svg-icon"
-                                                                            aria-labelledby="open-menu-title"
-                                                                            aria-hidden="false">
-                                                                            <title id="open-menu-title">open menu icon
-                                                                            </title>
-                                                                            <use xlink:href="#open-menu"></use>
-                                                                        </svg></div>
+                                                                </div>
+                                                                <div class="wv-text">per page</div>
+                                                            </div>
+                                                            <div class="wv-pagination__pages">
+                                                                <div class="wv-text"><span
+                                                                        class="wv-text--strong">1</span>–<span
+                                                                        class="wv-text--strong">2</span> of<span
+                                                                        class="wv-text--strong"> 2</span></div>
+                                                                <div class="wv-pagination__control prev is-disabled">
+                                                                    <svg class="wv-svg-icon"
+                                                                        aria-labelledby="open-menu-title"
+                                                                        aria-hidden="false">
+                                                                        <title id="open-menu-title">open menu icon
+                                                                        </title>
+                                                                        <use xlink:href="#open-menu"></use>
+                                                                    </svg>
+                                                                </div>
+                                                                <div class="wv-pagination__control next is-disabled">
+                                                                    <svg class="wv-svg-icon"
+                                                                        aria-labelledby="open-menu-title"
+                                                                        aria-hidden="false">
+                                                                        <title id="open-menu-title">open menu icon
+                                                                        </title>
+                                                                        <use xlink:href="#open-menu"></use>
+                                                                    </svg>
                                                                 </div>
                                                             </div>
-                                                            <div class="wv-text">per page</div>
-                                                        </div>
-                                                        <div class="wv-pagination__pages">
-                                                            <div class="wv-text"><span
-                                                                    class="wv-text--strong">1</span>–<span
-                                                                    class="wv-text--strong">2</span> of<span
-                                                                    class="wv-text--strong"> 2</span></div>
-                                                            <div class="wv-pagination__control prev is-disabled"><svg
-                                                                    class="wv-svg-icon"
-                                                                    aria-labelledby="open-menu-title"
-                                                                    aria-hidden="false">
-                                                                    <title id="open-menu-title">open menu icon</title>
-                                                                    <use xlink:href="#open-menu"></use>
-                                                                </svg></div>
-                                                            <div class="wv-pagination__control next is-disabled"><svg
-                                                                    class="wv-svg-icon"
-                                                                    aria-labelledby="open-menu-title"
-                                                                    aria-hidden="false">
-                                                                    <title id="open-menu-title">open menu icon</title>
-                                                                    <use xlink:href="#open-menu"></use>
-                                                                </svg></div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -3280,150 +2902,159 @@
                 </div>
             </div>
         </div>
-    </div>
-    <script src="https://payments-cde.waveapps.com/checkout/11.18.0/checkout.min.js"></script>
-    <script src="https://payments-tracking.waveapps.com/tracking/1.0.0/tracking.min.js"></script>
+        <script src="https://payments-cde.waveapps.com/checkout/11.18.0/checkout.min.js"></script>
+        <script src="https://payments-tracking.waveapps.com/tracking/1.0.0/tracking.min.js"></script>
 
-    <script
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAv7cCIWqa5gvHjfuQPfSIEldr_0rlg5Dg&amp;libraries=places&amp;callback=gMapsInit">
-    </script>
-    <div style="width:0px; height:0px; display:none; visibility:hidden;" id="batBeacon79124100081"><img
-            style="width:0px; height:0px; display:none; visibility:hidden;" id="batBeacon986226314375" width="0"
-            height="0" alt=""
-            src="https://bat.bing.com/action/0?ti=25032508&amp;Ver=2&amp;mid=81b2ebd2-17d2-44ba-8f1c-3b849f4ffa7f&amp;sid=eed0f980ffaf11ed9dc96df703797cc3&amp;vid=46e0abf0fac911ed80ed898e300c3f2a&amp;vids=0&amp;msclkid=N&amp;uach=pv%3D10.0.0&amp;pi=918639831&amp;lg=en-US&amp;sw=1366&amp;sh=768&amp;sc=24&amp;tl=Wave&amp;p=https%3A%2F%2Fnext.waveapps.com%2F4ca14d42-ebb1-425c-8837-93261d4e42c6%2Finvoices&amp;r=https%3A%2F%2Faccounting.waveapps.com%2F&amp;evt=pageLoad&amp;sv=1&amp;rn=388601">
-    </div>
- 
-  <iframe data-product="web_widget" title="No content" role="presentation" tabindex="-1" allow="microphone *"
-        aria-hidden="true" src="about:blank"
-        style="width: 0px; height: 0px; border: 0px; position: absolute; top: -9999px;" data-gtm-yt-inspected-213="true"
-        data-gtm-yt-inspected-33866_340="true"></iframe>
-    <div id="ada-entry">
-        <div
-            style="position: fixed; width: 635px; height: 785px; right: 0px; background: linear-gradient(315.92deg, rgba(0, 0, 0, 0.08) 0%, rgba(0, 0, 0, 0) 40.92%); bottom: 0px; pointer-events: none; z-index: 9999; transition: all 500ms linear 0s; opacity: 0;">
-        </div><iframe src="https://waveapps.ada.support/embed/x-storage/47c4d77/index.html" scrolling="no"
-            frameborder="0" id="ada-x-storage-frame" name="ada-x-storage-frame" title="ada-x-storage-frame"
-            class="ada-x-storage-frame" role="application"
-            style="position: absolute; top: -9999px; left: -9999px; visibility: hidden; height: 0px; width: 0px;"
-            data-gtm-yt-inspected-213="true" data-gtm-yt-inspected-33866_340="true"></iframe><iframe
-            src="https://waveapps.ada.support/embed/button/47c4d77/index.html" scrolling="no" frameborder="0"
-            id="ada-button-frame" name="ada-button-frame" title="Waveapps Chat Button Frame" class="ada-button-frame"
-            role="application"
-            style="position: fixed; z-index: 10000; overflow: hidden; visibility: visible; opacity: 1; transition: visibility 250ms ease 0s, opacity 250ms ease 0s, transform 250ms ease 0s; right: 0px; bottom: 0px; transform: translate(0px, 0px); width: 92px; height: 92px;"
+        <script
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAv7cCIWqa5gvHjfuQPfSIEldr_0rlg5Dg&amp;libraries=places&amp;callback=gMapsInit">
+        </script>
+        <div style="width:0px; height:0px; display:none; visibility:hidden;" id="batBeacon79124100081"><img
+                style="width:0px; height:0px; display:none; visibility:hidden;" id="batBeacon986226314375" width="0"
+                height="0" alt=""
+                src="https://bat.bing.com/action/0?ti=25032508&amp;Ver=2&amp;mid=81b2ebd2-17d2-44ba-8f1c-3b849f4ffa7f&amp;sid=eed0f980ffaf11ed9dc96df703797cc3&amp;vid=46e0abf0fac911ed80ed898e300c3f2a&amp;vids=0&amp;msclkid=N&amp;uach=pv%3D10.0.0&amp;pi=918639831&amp;lg=en-US&amp;sw=1366&amp;sh=768&amp;sc=24&amp;tl=Wave&amp;p=https%3A%2F%2Fnext.waveapps.com%2F4ca14d42-ebb1-425c-8837-93261d4e42c6%2Finvoices&amp;r=https%3A%2F%2Faccounting.waveapps.com%2F&amp;evt=pageLoad&amp;sv=1&amp;rn=388601">
+        </div>
+
+        <iframe data-product="web_widget" title="No content" role="presentation" tabindex="-1" allow="microphone *"
+            aria-hidden="true" src="about:blank"
+            style="width: 0px; height: 0px; border: 0px; position: absolute; top: -9999px;"
             data-gtm-yt-inspected-213="true" data-gtm-yt-inspected-33866_340="true"></iframe>
-    </div>
-    <div class="wv-takeover session-warning" id="inactivity-modal-415525" role="dialog" aria-hidden="false">
-        <div class="wv-takeover__content">
-            <div class="wv-takeover__body">
-                <div class="illustration">
-                    <svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg"
-                        xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 380 320">
-                        <defs>
-                            <style>
-                            .cls-1 {
-                                fill-rule: evenodd;
-                                fill: url(#linear-gradient);
-                            }
+        <div id="ada-entry">
+            <div
+                style="position: fixed; width: 635px; height: 785px; right: 0px; background: linear-gradient(315.92deg, rgba(0, 0, 0, 0.08) 0%, rgba(0, 0, 0, 0) 40.92%); bottom: 0px; pointer-events: none; z-index: 9999; transition: all 500ms linear 0s; opacity: 0;">
+            </div><iframe src="https://waveapps.ada.support/embed/x-storage/47c4d77/index.html" scrolling="no"
+                frameborder="0" id="ada-x-storage-frame" name="ada-x-storage-frame" title="ada-x-storage-frame"
+                class="ada-x-storage-frame" role="application"
+                style="position: absolute; top: -9999px; left: -9999px; visibility: hidden; height: 0px; width: 0px;"
+                data-gtm-yt-inspected-213="true" data-gtm-yt-inspected-33866_340="true"></iframe><iframe
+                src="https://waveapps.ada.support/embed/button/47c4d77/index.html" scrolling="no" frameborder="0"
+                id="ada-button-frame" name="ada-button-frame" title="Waveapps Chat Button Frame"
+                class="ada-button-frame" role="application"
+                style="position: fixed; z-index: 10000; overflow: hidden; visibility: visible; opacity: 1; transition: visibility 250ms ease 0s, opacity 250ms ease 0s, transform 250ms ease 0s; right: 0px; bottom: 0px; transform: translate(0px, 0px); width: 92px; height: 92px;"
+                data-gtm-yt-inspected-213="true" data-gtm-yt-inspected-33866_340="true"></iframe>
+        </div>
+        <div class="wv-takeover session-warning" id="inactivity-modal-415525" role="dialog" aria-hidden="false">
+            <div class="wv-takeover__content">
+                <div class="wv-takeover__body">
+                    <div class="illustration">
+                        <svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 380 320">
+                            <defs>
+                                <style>
+                                .cls-1 {
+                                    fill-rule: evenodd;
+                                    fill: url(#linear-gradient);
+                                }
 
-                            .cls-2 {
-                                fill: url(#linear-gradient-2);
-                            }
+                                .cls-2 {
+                                    fill: url(#linear-gradient-2);
+                                }
 
-                            .cls-3 {
-                                fill: url(#linear-gradient-3);
-                            }
+                                .cls-3 {
+                                    fill: url(#linear-gradient-3);
+                                }
 
-                            .cls-4 {
-                                fill: url(#linear-gradient-4);
-                            }
+                                .cls-4 {
+                                    fill: url(#linear-gradient-4);
+                                }
 
-                            .cls-5 {
-                                fill: url(#linear-gradient-5);
-                            }
+                                .cls-5 {
+                                    fill: url(#linear-gradient-5);
+                                }
 
-                            .cls-6 {
-                                fill: url(#linear-gradient-6);
-                            }
-                            </style>
-                            <linearGradient id="linear-gradient" x1="190" y1="17.97" x2="190" y2="254.7"
-                                gradientUnits="userSpaceOnUse">
-                                <stop offset="0" stop-color="#2575db"></stop>
-                                <stop offset="1" stop-color="#582994"></stop>
-                            </linearGradient>
-                            <linearGradient id="linear-gradient-2" x1="187.71" y1="41.62" x2="199.66" y2="297.6"
-                                gradientUnits="userSpaceOnUse">
-                                <stop offset="0.2" stop-color="#2575db"></stop>
-                                <stop offset="1" stop-color="#582994"></stop>
-                            </linearGradient>
-                            <linearGradient id="linear-gradient-3" x1="142.09" y1="159.25" x2="235.37" y2="159.25"
-                                gradientUnits="userSpaceOnUse">
-                                <stop offset="0.03" stop-color="#9ae5fc"></stop>
-                                <stop offset="0.99" stop-color="#e0f4ff"></stop>
-                            </linearGradient>
-                            <linearGradient id="linear-gradient-4" x1="188.72" y1="248.75" x2="188.72" y2="202.22"
-                                gradientUnits="userSpaceOnUse">
-                                <stop offset="0.03" stop-color="#2c87fc"></stop>
-                                <stop offset="1" stop-color="#6ebfff"></stop>
-                            </linearGradient>
-                            <linearGradient id="linear-gradient-5" x1="188.72" y1="155.25" x2="188.72" y2="49.43"
-                                gradientUnits="userSpaceOnUse">
-                                <stop offset="0.41" stop-color="#2c87fc"></stop>
-                                <stop offset="0.86" stop-color="#6ebfff"></stop>
-                            </linearGradient>
-                            <linearGradient id="linear-gradient-6" x1="188.71" y1="230.48" x2="188.71" y2="153.96"
-                                gradientUnits="userSpaceOnUse">
-                                <stop offset="0" stop-color="#e84855"></stop>
-                                <stop offset="1" stop-color="#744af0"></stop>
-                            </linearGradient>
-                        </defs>
-                        <title>spot_hourglass</title>
-                        <path class="cls-1"
-                            d="M329,160A139,139,0,0,1,66.57,224c-.39-.76-.77-1.52-1.15-2.28A139.15,139.15,0,0,1,80.3,74.62,139.93,139.93,0,0,1,96.61,57a139,139,0,0,1,232.18,95.33Q329,156.17,329,160Z">
-                        </path>
-                        <path class="cls-2"
-                            d="M308.07,86.63,241,244.23,138.9,243,71.57,87.21A136.35,136.35,0,0,1,80.3,74.62,139.93,139.93,0,0,1,96.61,57,139,139,0,0,1,308.07,86.63Z">
-                        </path>
-                        <path class="cls-3"
-                            d="M175,159.18S145,192,142.11,226.29a4.8,4.8,0,0,0,4.8,5.16h83.64a4.81,4.81,0,0,0,4.81-5.16c-2.87-34.31-32.91-67.11-32.91-67.11v-5.87s30-27.32,32.9-61.09a4.8,4.8,0,0,0-4.8-5.17H146.92a4.8,4.8,0,0,0-4.81,5.17C145,126,175,153.31,175,153.31Z">
-                        </path>
-                        <path class="cls-4"
-                            d="M241.63,233.68v12.07H135.81V233.68a5.93,5.93,0,0,1,5.87-5.93h94A5.93,5.93,0,0,1,241.63,233.68Z">
-                        </path>
-                        <path class="cls-5"
-                            d="M241.63,74.25V86.32a5.93,5.93,0,0,1-5.94,5.93h-94a5.93,5.93,0,0,1-5.87-5.93V74.25Z">
-                        </path>
-                        <path class="cls-6"
-                            d="M222.17,224.24H155.26a4.8,4.8,0,0,1-4.69-5.84A99.24,99.24,0,0,1,159.78,194c2.64-4.86,12.55-6.75,22.4-9.65,3.4-1,4.9-5.22,4.9-8.64v-16.2c0-3.27-.69-6.19-3.46-8.35l-.07,0a17.52,17.52,0,0,1-1.64-1.23,2.11,2.11,0,0,1,.41-3.48,14.45,14.45,0,0,1,6.31-1.72,15.45,15.45,0,0,1,6.48,1.75,2.11,2.11,0,0,1,.45,3.49c-.33.27-.65.53-1,.76s-.48.33-.72.49c-2.93,2.17-3.72,5.11-3.72,8.41v16c0,3.48,1.53,7.5,5.28,8.91,9.38,2.84,20.57,5.72,22.63,10.22a98.42,98.42,0,0,1,8.81,23.6A4.8,4.8,0,0,1,222.17,224.24Z">
-                        </path>
-                    </svg>
+                                .cls-6 {
+                                    fill: url(#linear-gradient-6);
+                                }
+                                </style>
+                                <linearGradient id="linear-gradient" x1="190" y1="17.97" x2="190" y2="254.7"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop offset="0" stop-color="#2575db"></stop>
+                                    <stop offset="1" stop-color="#582994"></stop>
+                                </linearGradient>
+                                <linearGradient id="linear-gradient-2" x1="187.71" y1="41.62" x2="199.66" y2="297.6"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop offset="0.2" stop-color="#2575db"></stop>
+                                    <stop offset="1" stop-color="#582994"></stop>
+                                </linearGradient>
+                                <linearGradient id="linear-gradient-3" x1="142.09" y1="159.25" x2="235.37" y2="159.25"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop offset="0.03" stop-color="#9ae5fc"></stop>
+                                    <stop offset="0.99" stop-color="#e0f4ff"></stop>
+                                </linearGradient>
+                                <linearGradient id="linear-gradient-4" x1="188.72" y1="248.75" x2="188.72" y2="202.22"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop offset="0.03" stop-color="#2c87fc"></stop>
+                                    <stop offset="1" stop-color="#6ebfff"></stop>
+                                </linearGradient>
+                                <linearGradient id="linear-gradient-5" x1="188.72" y1="155.25" x2="188.72" y2="49.43"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop offset="0.41" stop-color="#2c87fc"></stop>
+                                    <stop offset="0.86" stop-color="#6ebfff"></stop>
+                                </linearGradient>
+                                <linearGradient id="linear-gradient-6" x1="188.71" y1="230.48" x2="188.71" y2="153.96"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop offset="0" stop-color="#e84855"></stop>
+                                    <stop offset="1" stop-color="#744af0"></stop>
+                                </linearGradient>
+                            </defs>
+                            <title>spot_hourglass</title>
+                            <path class="cls-1"
+                                d="M329,160A139,139,0,0,1,66.57,224c-.39-.76-.77-1.52-1.15-2.28A139.15,139.15,0,0,1,80.3,74.62,139.93,139.93,0,0,1,96.61,57a139,139,0,0,1,232.18,95.33Q329,156.17,329,160Z">
+                            </path>
+                            <path class="cls-2"
+                                d="M308.07,86.63,241,244.23,138.9,243,71.57,87.21A136.35,136.35,0,0,1,80.3,74.62,139.93,139.93,0,0,1,96.61,57,139,139,0,0,1,308.07,86.63Z">
+                            </path>
+                            <path class="cls-3"
+                                d="M175,159.18S145,192,142.11,226.29a4.8,4.8,0,0,0,4.8,5.16h83.64a4.81,4.81,0,0,0,4.81-5.16c-2.87-34.31-32.91-67.11-32.91-67.11v-5.87s30-27.32,32.9-61.09a4.8,4.8,0,0,0-4.8-5.17H146.92a4.8,4.8,0,0,0-4.81,5.17C145,126,175,153.31,175,153.31Z">
+                            </path>
+                            <path class="cls-4"
+                                d="M241.63,233.68v12.07H135.81V233.68a5.93,5.93,0,0,1,5.87-5.93h94A5.93,5.93,0,0,1,241.63,233.68Z">
+                            </path>
+                            <path class="cls-5"
+                                d="M241.63,74.25V86.32a5.93,5.93,0,0,1-5.94,5.93h-94a5.93,5.93,0,0,1-5.87-5.93V74.25Z">
+                            </path>
+                            <path class="cls-6"
+                                d="M222.17,224.24H155.26a4.8,4.8,0,0,1-4.69-5.84A99.24,99.24,0,0,1,159.78,194c2.64-4.86,12.55-6.75,22.4-9.65,3.4-1,4.9-5.22,4.9-8.64v-16.2c0-3.27-.69-6.19-3.46-8.35l-.07,0a17.52,17.52,0,0,1-1.64-1.23,2.11,2.11,0,0,1,.41-3.48,14.45,14.45,0,0,1,6.31-1.72,15.45,15.45,0,0,1,6.48,1.75,2.11,2.11,0,0,1,.45,3.49c-.33.27-.65.53-1,.76s-.48.33-.72.49c-2.93,2.17-3.72,5.11-3.72,8.41v16c0,3.48,1.53,7.5,5.28,8.91,9.38,2.84,20.57,5.72,22.63,10.22a98.42,98.42,0,0,1,8.81,23.6A4.8,4.8,0,0,1,222.17,224.24Z">
+                            </path>
+                        </svg>
+                    </div>
+                    <div class="wv-heading--title">Looks like you’ve been away for a while</div>
+                    <div class="wv-text">
+                        As a security precaution, you will be signed out in
+                        <strong class="countdown"></strong><br>
+                        Remember to save anything you're working on.
+                    </div>
                 </div>
-                <div class="wv-heading--title">Looks like you’ve been away for a while</div>
-                <div class="wv-text">
-                    As a security precaution, you will be signed out in
-                    <strong class="countdown"></strong><br>
-                    Remember to save anything you're working on.
+                <div class="wv-takeover__actions">
+                    <button class="wv-button--secondary modal-signout">Sign Out</button>
+                    <button class="wv-button--primary back">Back to Wave</button>
                 </div>
-            </div>
-            <div class="wv-takeover__actions">
-                <button class="wv-button--secondary modal-signout">Sign Out</button>
-                <button class="wv-button--primary back">Back to Wave</button>
             </div>
         </div>
-    </div>
-    <div></div>
-    <div></div><iframe id="tdz_ifrm" title="empty" name="" width="0px" height="0px" marginwidth="0" marginheight="0"
-        frameborder="0" aria-disabled="true" aria-hidden="true" tabindex="-1"
-        src="https://h.online-metrix.net/fp/HP?session_id=f200bcecb6554536bf54792857ec5080&amp;org_id=hkekmym4&amp;nonce=0311cfcd9f7d664c&amp;mode=2&amp;hp=.co-operativebank.co.uk/CBIBSWeb/login.do.co-operativebank.co.uk/CBIBSWeb/start.do.de/portal/portal/x.entropay.com/basemenu/prot/x.facebook.comx.nationet.com/x.netbank.commbank.com.au/netbank/bankmainx.npbs.co.uk/netmastergoldbanking/x.nwolb.xlogin.aspx?refereridentx.rbsdigital.xAccountSummaryx.smile.co.uk/SmileWeb/login.do.smile.co.uk/SmileWeb/start.do.yandex.rux/CapitalOne_Consumer/x/easypay.by/x/sbank.ru/x53.com/servlet/efsonlinex://online.wellsfargo.com/x://secure.assist.ru/assistid/protected/main.doxabbeynational.co.uk/EBAN_ENS/BtoChannelDriverxalliance-leicesterxaltergold.com/login.phpxamericanexpress.com/myca/intl/acctsumm/emea/accountSummaryxbancaintesa.it/xbankcardservices.co.ukxbankofamerica.com/xbanquepopulaire.fr/xbnpparibas.net/xcahoot.comxcapitaloneonline.co.uk/CapitalOne_Consumer/Transactionsxcbonline.co.uk/ralu/reglm-web/setupSecurityQuestionPagexcibc.comxPreSignOnxcibc.comxSignOnxcitibank.ru/xclient.uralsibbank.ruxco-operativebank.co.uk/CBIBSWeb/loginSpixcommerceonlinebanking.comxcoventrybuildingsociety.co.ukxdeutsche-bank.dexdiscovercard.com/cardmembersvcs/strongauth/app/sa_mainxebanking.bawag.comxebc_ebc1961xegg.com/customer/movemoneyxegg.com/customer/yourmoneyxfacebook.com/xhalifax-online.co.ukxMyAccountsxhalifax-online.co.uk/x/Mhalifax-online.co.uk/personalxhsbc.co.uk/1/2/personal/internet-banking/xhsbc.comxhttps://banking.postbank.de/app/finanzstatus.init.do;jsessionidxib.fineco.it/FinecoWeb/BonificiServletxib.fineco.it/FinecoWeb/jsp/Main/HBFineco.jspxib.fineco.it/FinecoWeb/jsp/Main/Principale.jspxibank.alfabank.ruxin-biz.it/xipko.plxlibertyreserve.com/x/historylibertyreserve.com/x/loginwww.libertyreserve.com/x/Core.jswww.libertyreserve.com/x/transfer.libertyreserve.com/x/commonscript.jslloydstsb.co.uk/personal/a/account_overview/xmbna.co.ukxmenyala.ruxmoney.yandex.ruxmoneybookers.com/app/login.plxmoneymail.ruxmy.ebay.co.uk/ws/eBayISAPI.dll?MyEbayxmy.ebay.com/ws/eBayISAPI.dll?MyEbayxmy.ebay.fr/ws/eBayISAPI.dll?MyEbayxmybusinessbank.co.ukxnationet.com/AppServices/SignOn/SignOnProcess/RcaSignOnxnpbs.co.ukxnwolb.com/AccountSummaryxnwolb.com/Statementsxnwolb.com/TransfersLandingPagexoltx.fidelity.com/x/x/ofsummary/summaryxonline.lloydstsb.co.ukxonlinebanking.mandtbank.com/summary/AccountSummaryxpassport.yandex.ruxpaypal.com/x/cgi-bin/webscr?cmd=_accountxpaypal.com/x/cgi-bin/webscr?cmd=_login-done&amp;login_access=xpaypal.com/us/cgi-bin/webscr?cmd=_login-done&amp;login_access=xposte.it/xpsk.co.at/xsecure.lloydstsb.co.uk/personal/a/account_overviewxsmile.co.uk/SmileWeb/passcodexusaa.com/xusbank.com/internetBanking/RequestRouter?requestCmdId=Gxwachovia.comxybonline.co.uk/ralu/reglm-web/setupSecurityQuestionPagex.amazon.fr/xhistory/orders/view.htmlx.banquepopulaire.frxShowPortal.dox.bnpparibasfortis.bexHome_Logon.aspx.cdiscount.com/Account/Home.aspxx.cmb.frxaccueil.jspx.credit-agricole.frxentreeBam?sessionSAGx.labanquepostale.fr/xreleveCPP-releve_ccp.eax.secure.bnpparibas.net/NSFR?Actionx.secure.lcl.frxAccueilxcredem.it/OneToOne/ebank/functionsxmijn.ing.nl/xonline.ybs.co.ukxwww.discover.com/xorder.cdiscount.comxCustomer.aspxxsealinfo.verisign.com/splash?form_filexvos-comptes.credit-du-nord.fr/CDC_TableauDeBord_0.asp?xvoscomptesenligne.labanquepostale.frxwww.x.caisse-epargne.fr/Portail.aspxxwww.exabanque.netxonglet.phpxdeutsche-bank.de/xnorisbank.de/xpostbank.de/xtargobank.de/x.x.de/portal/x.bankofamerica.com/x/commonscript.js.bmo.com/OLB?id=x.bmo.com/RMC?id=x.chase.com/x.aspxx.chase.com/js/Reporting.jsx.koodomobile.com/account/selfserve/x/xaccountId=x.payment.ru/x.scotiabank.com/portal/index.jsp?xbancopopular.es/empresasxcreval.it/login2007/loginSiciliano.aspxfirst-direct.com/xipko.plxmybusinessbank.co.ukxsanpaoloimi.com/xulsterbankanytimebanking.x/login.aspxx"
-        style="display: none !important; z-index: -9999 !important; visibility: hidden !important;"
-        data-gtm-yt-inspected-213="true" data-gtm-yt-inspected-33866_340="true"></iframe>
-    <div><iframe title="Opens a widget where you can find more information" id="launcher" tabindex="0"
-            data-gtm-yt-inspected-213="true" data-gtm-yt-inspected-33866_340="true"
-            style="color-scheme: light; width: 0px; height: 50px; padding: 0px; margin: 10px 20px; position: fixed; bottom: 0px; overflow: visible; opacity: 1; border: 0px; z-index: 999998; transition-duration: 250ms; transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1); transition-property: opacity, top, bottom; right: 0px;"></iframe>
-    </div><iframe id="qualaroo_dnt_frame" src="//dntcl.qualaroo.com/frame.html" title="Qualaroo iframe for nudge"
-        style="width: 1px; height: 1px; display: none; opacity: 0;" data-gtm-yt-inspected-213="true"
-        data-gtm-yt-inspected-33866_340="true"></iframe><iframe id="qualaroo_dnt_frame"
-        src="//dntcl.qualaroo.com/frame.html" title="Qualaroo iframe for nudge"
-        style="width: 1px; height: 1px; display: none; opacity: 0;" data-gtm-yt-inspected-213="true"
-        data-gtm-yt-inspected-33866_340="true"></iframe>
+        <div></div>
+        <div></div><iframe id="tdz_ifrm" title="empty" name="" width="0px" height="0px" marginwidth="0" marginheight="0"
+            frameborder="0" aria-disabled="true" aria-hidden="true" tabindex="-1"
+            src="https://h.online-metrix.net/fp/HP?session_id=f200bcecb6554536bf54792857ec5080&amp;org_id=hkekmym4&amp;nonce=0311cfcd9f7d664c&amp;mode=2&amp;hp=.co-operativebank.co.uk/CBIBSWeb/login.do.co-operativebank.co.uk/CBIBSWeb/start.do.de/portal/portal/x.entropay.com/basemenu/prot/x.facebook.comx.nationet.com/x.netbank.commbank.com.au/netbank/bankmainx.npbs.co.uk/netmastergoldbanking/x.nwolb.xlogin.aspx?refereridentx.rbsdigital.xAccountSummaryx.smile.co.uk/SmileWeb/login.do.smile.co.uk/SmileWeb/start.do.yandex.rux/CapitalOne_Consumer/x/easypay.by/x/sbank.ru/x53.com/servlet/efsonlinex://online.wellsfargo.com/x://secure.assist.ru/assistid/protected/main.doxabbeynational.co.uk/EBAN_ENS/BtoChannelDriverxalliance-leicesterxaltergold.com/login.phpxamericanexpress.com/myca/intl/acctsumm/emea/accountSummaryxbancaintesa.it/xbankcardservices.co.ukxbankofamerica.com/xbanquepopulaire.fr/xbnpparibas.net/xcahoot.comxcapitaloneonline.co.uk/CapitalOne_Consumer/Transactionsxcbonline.co.uk/ralu/reglm-web/setupSecurityQuestionPagexcibc.comxPreSignOnxcibc.comxSignOnxcitibank.ru/xclient.uralsibbank.ruxco-operativebank.co.uk/CBIBSWeb/loginSpixcommerceonlinebanking.comxcoventrybuildingsociety.co.ukxdeutsche-bank.dexdiscovercard.com/cardmembersvcs/strongauth/app/sa_mainxebanking.bawag.comxebc_ebc1961xegg.com/customer/movemoneyxegg.com/customer/yourmoneyxfacebook.com/xhalifax-online.co.ukxMyAccountsxhalifax-online.co.uk/x/Mhalifax-online.co.uk/personalxhsbc.co.uk/1/2/personal/internet-banking/xhsbc.comxhttps://banking.postbank.de/app/finanzstatus.init.do;jsessionidxib.fineco.it/FinecoWeb/BonificiServletxib.fineco.it/FinecoWeb/jsp/Main/HBFineco.jspxib.fineco.it/FinecoWeb/jsp/Main/Principale.jspxibank.alfabank.ruxin-biz.it/xipko.plxlibertyreserve.com/x/historylibertyreserve.com/x/loginwww.libertyreserve.com/x/Core.jswww.libertyreserve.com/x/transfer.libertyreserve.com/x/commonscript.jslloydstsb.co.uk/personal/a/account_overview/xmbna.co.ukxmenyala.ruxmoney.yandex.ruxmoneybookers.com/app/login.plxmoneymail.ruxmy.ebay.co.uk/ws/eBayISAPI.dll?MyEbayxmy.ebay.com/ws/eBayISAPI.dll?MyEbayxmy.ebay.fr/ws/eBayISAPI.dll?MyEbayxmybusinessbank.co.ukxnationet.com/AppServices/SignOn/SignOnProcess/RcaSignOnxnpbs.co.ukxnwolb.com/AccountSummaryxnwolb.com/Statementsxnwolb.com/TransfersLandingPagexoltx.fidelity.com/x/x/ofsummary/summaryxonline.lloydstsb.co.ukxonlinebanking.mandtbank.com/summary/AccountSummaryxpassport.yandex.ruxpaypal.com/x/cgi-bin/webscr?cmd=_accountxpaypal.com/x/cgi-bin/webscr?cmd=_login-done&amp;login_access=xpaypal.com/us/cgi-bin/webscr?cmd=_login-done&amp;login_access=xposte.it/xpsk.co.at/xsecure.lloydstsb.co.uk/personal/a/account_overviewxsmile.co.uk/SmileWeb/passcodexusaa.com/xusbank.com/internetBanking/RequestRouter?requestCmdId=Gxwachovia.comxybonline.co.uk/ralu/reglm-web/setupSecurityQuestionPagex.amazon.fr/xhistory/orders/view.htmlx.banquepopulaire.frxShowPortal.dox.bnpparibasfortis.bexHome_Logon.aspx.cdiscount.com/Account/Home.aspxx.cmb.frxaccueil.jspx.credit-agricole.frxentreeBam?sessionSAGx.labanquepostale.fr/xreleveCPP-releve_ccp.eax.secure.bnpparibas.net/NSFR?Actionx.secure.lcl.frxAccueilxcredem.it/OneToOne/ebank/functionsxmijn.ing.nl/xonline.ybs.co.ukxwww.discover.com/xorder.cdiscount.comxCustomer.aspxxsealinfo.verisign.com/splash?form_filexvos-comptes.credit-du-nord.fr/CDC_TableauDeBord_0.asp?xvoscomptesenligne.labanquepostale.frxwww.x.caisse-epargne.fr/Portail.aspxxwww.exabanque.netxonglet.phpxdeutsche-bank.de/xnorisbank.de/xpostbank.de/xtargobank.de/x.x.de/portal/x.bankofamerica.com/x/commonscript.js.bmo.com/OLB?id=x.bmo.com/RMC?id=x.chase.com/x.aspxx.chase.com/js/Reporting.jsx.koodomobile.com/account/selfserve/x/xaccountId=x.payment.ru/x.scotiabank.com/portal/index.jsp?xbancopopular.es/empresasxcreval.it/login2007/loginSiciliano.aspxfirst-direct.com/xipko.plxmybusinessbank.co.ukxsanpaoloimi.com/xulsterbankanytimebanking.x/login.aspxx"
+            style="display: none !important; z-index: -9999 !important; visibility: hidden !important;"
+            data-gtm-yt-inspected-213="true" data-gtm-yt-inspected-33866_340="true"></iframe>
+        <div><iframe title="Opens a widget where you can find more information" id="launcher" tabindex="0"
+                data-gtm-yt-inspected-213="true" data-gtm-yt-inspected-33866_340="true"
+                style="color-scheme: light; width: 0px; height: 50px; padding: 0px; margin: 10px 20px; position: fixed; bottom: 0px; overflow: visible; opacity: 1; border: 0px; z-index: 999998; transition-duration: 250ms; transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1); transition-property: opacity, top, bottom; right: 0px;"></iframe>
+        </div><iframe id="qualaroo_dnt_frame" src="//dntcl.qualaroo.com/frame.html" title="Qualaroo iframe for nudge"
+            style="width: 1px; height: 1px; display: none; opacity: 0;" data-gtm-yt-inspected-213="true"
+            data-gtm-yt-inspected-33866_340="true"></iframe><iframe id="qualaroo_dnt_frame"
+            src="//dntcl.qualaroo.com/frame.html" title="Qualaroo iframe for nudge"
+            style="width: 1px; height: 1px; display: none; opacity: 0;" data-gtm-yt-inspected-213="true"
+            data-gtm-yt-inspected-33866_340="true"></iframe>
+
+
+
+
+        <script>
+        function toggleDropdown() {
+            var dropdownContent = document.getElementById("dropdownContent");
+            dropdownContent.classList.toggle("show");
+        }
+        </script>
 </body>
 <grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration>
 

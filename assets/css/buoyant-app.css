@@ -2460,11 +2460,13 @@ body {
 .is-current .wv-workflow__task__action,
 .wv-button--with-actions--primary .wv-button,
 .wv-button--submit,
-.wv-button--primary {
+.wv-button--primary
+ {
     color: #fff;
     background-color: #1AC18C;
     border: 1px solid rgba(0, 0, 0, 0)
 }
+
 
 .is-current .wv-workflow__task__action:hover:not(.is-disabled),
 .wv-button--with-actions--primary .wv-button:hover:not(.is-disabled),

@@ -2795,29 +2795,8 @@
                                                 </div>
                                                 <span class="wv-badge--large wv-badge--danger">overdue</span>
                                             </div> -->
-                                            <div class="invoice-view-summary__customer">
-                                                <div>
-                                                    <p class="wv-text wv-text--block-label fs-exclude wv-text--inline">
-                                                        Customer</p>
-                                                </div>
-                                                <div
-                                                    class="invoice-view-summary__customer__name invoice-view-summary__text-value">
-                                                    <div class="wv-popover__trigger"><button
-                                                            class="wv-button--link fs-exclude nm7LVHvoZ9usXD7H9amw">Lido
-                                                            Carrier<svg class="wv-svg-icon JjvRATiTxxqTq5mpbKo1"
-                                                                aria-labelledby="info-title" aria-hidden="true">
-                                                                <use xlink:href="#info"></use>
-                                                            </svg></button></div>
-                                                </div>
-                                            </div>
-                                            <div class="invoice-view-summary__amount">
-                                                <div>
-                                                    <p class="wv-text wv-text--block-label fs-exclude wv-text--inline">
-                                                        Amount due</p>
-                                                </div>
-                                                <div class="invoice-view-summary__text-value"><span
-                                                        class="wv-number wv-number--small">$800.00</span></div>
-                                            </div>
+                                            
+                                           
                                             <div class="invoice-view-summary__due-date">
                                                 <div>
                                                     <p class="wv-text wv-text--block-label fs-exclude wv-text--inline">
